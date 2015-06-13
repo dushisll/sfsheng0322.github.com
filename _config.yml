@@ -21,8 +21,8 @@ theme:
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
-  rss: true
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: false
+  email_address: sfsheng0322@126.com
   behance:
   bitbucket:
   dribbble:
