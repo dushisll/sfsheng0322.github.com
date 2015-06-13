@@ -13,15 +13,15 @@ theme:
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>我是孙福生，一名Android软件攻城狮。</p>
 
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>同大千攻城狮般无异，本狮有着巨大的火热的不灭的技术热情，痴迷于Android开发！乐于分享，善于技术生活化，唯愿与大千男女攻城狮共同进步！</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
-  rss: false
+  rss: true
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
@@ -38,7 +38,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: 
   wordpress:
   youtube:
 
@@ -48,7 +48,7 @@ theme:
   katex: true # Enable if using math markup
 
   # Localization strings
-  str_follow_on: "Follow on"
+  str_follow_on: "我的"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
   str_next: "Next"
