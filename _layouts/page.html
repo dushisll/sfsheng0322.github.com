@@ -1,7 +1,9 @@
 ---
-theme :
-  name : the-program
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/the-program/page.html %}
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
+  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+    <h1 class="title">{{ page.title }}</h1>
+  </header>
+  <section class="post-content">{{ content }}</section>
+</article>
