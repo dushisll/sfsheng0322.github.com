@@ -6,6 +6,14 @@
 </li>
 {% endif %}
 
+{% if site.theme.github %}
+<li>
+	<a href="https://github.com/{{ site.theme.github }}" title="GitHub: {{ site.theme.str_follow_on }}">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+{% endif %}
+
 {% if site.theme.email_address %}
 <li>
 	<a href="mailto:{{ site.theme.email_address }}" title="Email: {{ site.theme.str_email }}">
@@ -50,14 +58,6 @@
 <li>
 	<a href="https://www.flickr.com/photos/{{ site.theme.flickr }}" title="{{ site.theme.str_follow_on }} Flickr">
 		<i class="fa fa-fw fa-flickr"></i>
-	</a>
-</li>
-{% endif %}
-
-{% if site.theme.github %}
-<li>
-	<a href="https://github.com/{{ site.theme.github }}" title="GitHub: {{ site.theme.str_follow_on }}">
-		<i class="fa fa-fw fa-github"></i>
 	</a>
 </li>
 {% endif %}
