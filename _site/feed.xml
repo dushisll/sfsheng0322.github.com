@@ -5,98 +5,299 @@
     <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://example.com/</link>
     <description>A website with blog posts and pages</description>
-    <pubDate>Sun, 14 Jun 2015 16:02:18 +0800</pubDate>
+    <pubDate>Mon, 15 Jun 2015 18:56:54 +0800</pubDate>
     
       <item>
-        <title>Sample post</title>
-        <link>http://example.com/2014/11/30/sample-post.html</link>
-        <guid isPermaLink="true">http://example.com/2014/11/30/sample-post.html</guid>
-        <description>&lt;p&gt;Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
-  &lt;li&gt;Donec a diam lectus&lt;/li&gt;
-  &lt;li&gt;Sed sit amet ipsum mauris&lt;/li&gt;
+        <title>Java语言下单向链表的操作</title>
+        <link>http://example.com/2015/06/14/java-single-linked-list.html</link>
+        <guid isPermaLink="true">http://example.com/2015/06/14/java-single-linked-list.html</guid>
+        <description>&lt;ul&gt;
+  &lt;li&gt;单向链表增删改查的操作&lt;/li&gt;
+  &lt;li&gt;反转单向链表&lt;/li&gt;
+  &lt;li&gt;判断单向链表是否有环&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.&lt;/p&gt;
+&lt;p&gt;写一个大家都比较熟悉的数据结构：单向链表。
+虽然java的API里面已经提供了单向链表的类，大家可以直接拿来用，但是通过自己的编写也更能够让我们了解其中实现的过程，而且我们还可以写一些比较个性化的方法作为属于自己的数据结构。这里主要是介绍一些常用结构里面都会用到的方法，以及链表具体是如何操作的。&lt;/p&gt;
 
-&lt;p&gt;Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula &lt;em&gt;semper consectetur sagittis&lt;/em&gt;, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.&lt;/p&gt;
+&lt;p&gt;单向链表（单链表）是链表的一种，其特点是链表的链接方向是单向的，对链表的访问要通过顺序从头部开始读取，链表是使用指针进行构造的列表，又称为结点列表。因为链表是由一个个结点组装起来的，其中每个结点都有指针成员变量指列表中的下一个结点，由head指针指向第一个成为表头的结点而终止于最后一个指向nuLL的指针。&lt;/p&gt;
 
-&lt;p&gt;Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.&lt;/p&gt;
+&lt;h4 id=&quot;person&quot;&gt;首先定义一个简单的Person类&lt;/h4&gt;
+&lt;p&gt;里面仅仅包含两个元素姓名和年龄&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public class Person {
 
-&lt;p&gt;Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt.&lt;/p&gt;
+    private String name;
+    private int age;
+	
+    //构造函数
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
-&lt;p&gt;Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.&lt;/p&gt;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return &quot;Person [name=&quot; + name + &quot;, age=&quot; + age + &quot;]&quot;;
+    }
+	
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;personnode&quot;&gt;接下来构造PersonNode节点&lt;/h4&gt;
+&lt;p&gt;PersonNode节点拥有一个Person对象和PersonNode节点的指针&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public class PersonNode {
+
+    private Person person;
+    private PersonNode nextNode;
+	
+    public PersonNode(Person person, PersonNode nextNode) {
+        this.person = person;
+        this.nextNode = nextNode;
+    }
+
+    public Person getPerson() {
+        return person;
+    }
+
+    public void setPerson(Person person) {
+        this.person = person;
+    }
+
+    public PersonNode getNextNode() {
+        return nextNode;
+    }
+
+    public void setNextNode(PersonNode nextNode) {
+        this.nextNode = nextNode;
+    }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;增加节点&lt;/h4&gt;
+&lt;p&gt;新添加的节点指向头结点&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public void addNode(Person p) {
+    if (isEmpty()) {
+        head = new PersonNode(p, null);
+    } else {
+        head = new PersonNode(p, head);
+    }
+    size++;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;删除节点&lt;/h4&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public void deleteNode(String personName) {
+	//情况一：链表节点数为0
+	if (isEmpty()) {
+		return ;
+	}
+	//情况二：链表中无此节点
+	if (!contains(personName)) {
+		return ;
+	}
+	//情况三：链表中只有一个节点且匹配
+	if (size == 1) {
+		head = null;
+		size = 0;
+		return ;
+	}
+	//情况四：删除的是第一个链表节点
+	int index = 0;//被删除节点的索引
+	for (PersonNode pn = head; pn != null; pn = pn.getNextNode()) {
+		if (pn.getPerson().getName().equals(personName)) {
+			break;
+		} else {
+			index++;
+		}
+	}
+	if (index == 0) {
+		head = new PersonNode(head.getNextNode().getPerson(), head.getNextNode().getNextNode());
+		size--;
+		return ;
+	}
+	//情况五：删除的不是第一个链表节点
+	 int preIndex = 0;//被删除节点的前一个节点的索引
+	 for (PersonNode pn = head; pn != null; pn = pn.getNextNode()) {
+		 if (preIndex == index - 1) {
+			 if (index == size - 1) {//删除的节点是最后一个节点
+				 pn.setNextNode(null);
+			 } else {
+				 pn.setNextNode(pn.getNextNode().getNextNode());
+			 }
+			 size--;
+			 return ;
+		 }
+		 preIndex++;
+	 }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section-2&quot;&gt;修改人名&lt;/h4&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public void modifyPersonName(String oldName, String newName) {
+	if (newName == null || oldName == null) {
+		return ;
+	}
+	Person p = searchPerson(oldName);
+	if (p == null) {
+		return ;
+	}
+	p.setName(newName);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section-3&quot;&gt;修改年龄&lt;/h4&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public void modifyPersonAge(String personName, int age) {
+	if (personName == null) {
+		return ;
+	}
+	if (age &amp;lt;= 0) {
+		return ;
+	}
+	Person p = searchPerson(personName);
+	if (p == null) {
+		return ;
+	}
+	p.setAge(age);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section-4&quot;&gt;根据人名搜索这个人的节点&lt;/h4&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public Person searchPerson(String personName) {
+	for (PersonNode pn = head; pn != null; pn = pn.getNextNode()) {
+		if (pn.getPerson().getName().equals(personName)) {
+			return pn.getPerson();
+		}
+	}
+	return null;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section-5&quot;&gt;根据人名搜索这个人的节点&lt;/h4&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public PersonNode searchNode(String personName) {
+	for (PersonNode pn = head; pn != null; pn = pn.getNextNode()) {
+		if (pn.getPerson().getName().equals(personName)) {
+			return pn;
+		}
+	}
+	return null;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section-6&quot;&gt;链表中是否包含该名字的节点&lt;/h4&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public boolean contains(String personName) {
+	if (!isEmpty()) {
+		for (PersonNode pn = head; pn != null; pn = pn.getNextNode()) {
+			if (pn.getPerson().getName().equals(personName)) {
+				return true;
+			}
+		}
+	}
+	return false;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section-7&quot;&gt;是否为空&lt;/h4&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public boolean isEmpty() {
+	return size == 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section-8&quot;&gt;打印所有节点&lt;/h4&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public void printAllNode() {
+	if (!isEmpty()) {
+		for (PersonNode pn=head; pn != null; pn = pn.getNextNode()) {
+			System.out.println(pn.getPerson().toString());
+		}
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section-9&quot;&gt;链表反转&lt;/h4&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public PersonNode reverse() {
+	if (isEmpty()) {
+		return null;
+	}
+	PersonNode pre = head;
+	PersonNode cur = head.getNextNode();
+	PersonNode next;
+	while (cur != null) {
+		next = cur.getNextNode();
+		cur.setNextNode(pre);
+		pre = cur;
+		cur = next;
+	}
+	head.setNextNode(null);
+	head = pre;
+	return head;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section-10&quot;&gt;判断链表是否为环链表&lt;/h4&gt;
+&lt;p&gt;两个指针slow，fast都从头开始遍历单链表，slow每次向前走1步，fast每次向前走2步，如果fast碰到了null，说明环不存在；如果fast碰到本应在身后的slow说明环存在。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;public boolean isLoop() {
+	if (head == null || head.getNextNode() == null) {
+		return false;
+	}
+	PersonNode slow = head;
+	PersonNode fast = head;
+	while (fast != null &amp;amp;&amp;amp; fast.getNextNode() != null) {
+		slow = slow.getNextNode();
+		fast = fast.getNextNode().getNextNode();
+		if (slow == fast) {
+			return true;
+		}
+	}
+	return false;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;详细内容请参考&lt;a href=&quot;https://github.com/sfsheng0322/LinkedListProject&quot;&gt;GitHub源码&lt;/a&gt;&lt;/p&gt;
+
 </description>
-        <pubDate>Sun, 30 Nov 2014 00:00:00 +0800</pubDate>
-      </item>
-    
-      <item>
-        <title>Feature images</title>
-        <link>http://example.com/2014/11/29/feature-images.html</link>
-        <guid isPermaLink="true">http://example.com/2014/11/29/feature-images.html</guid>
-        <description>&lt;p&gt;This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 29 Nov 2014 00:00:00 +0800</pubDate>
-      </item>
-    
-      <item>
-        <title>Markdown and HTML</title>
-        <link>http://example.com/2014/11/28/markdown-and-html.html</link>
-        <guid isPermaLink="true">http://example.com/2014/11/28/markdown-and-html.html</guid>
-        <description>&lt;p&gt;Jeykll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.&lt;/p&gt;
-
-&lt;p&gt;Tables have also been extended from Markdown:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First Header&lt;/th&gt;
-      &lt;th&gt;Second Header&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Here’s an example of an image, which is included using Markdown:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/sample_feature_img_2.png&quot; alt=&quot;Geometric pattern with fading gradient&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// count to ten&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// count to twenty&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Type Theme uses KaTeX to display maths. Equations such as &lt;script type=&quot;math/tex&quot;&gt;S_n = a \times \frac{1-r^n}{1-r}&lt;/script&gt; can be displayed inline.&lt;/p&gt;
-
-&lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int \frac{2x^2+4x+6}{x-2}&lt;/script&gt;
-</description>
-        <pubDate>Fri, 28 Nov 2014 00:00:00 +0800</pubDate>
+        <pubDate>Sun, 14 Jun 2015 00:00:00 +0800</pubDate>
       </item>
     
   </channel>
