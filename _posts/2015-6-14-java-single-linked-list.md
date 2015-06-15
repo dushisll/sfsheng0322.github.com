@@ -20,8 +20,7 @@ title: Java语言下单向链表的操作
 
 	    private String name;
 	    private int age;
-		
-	    //构造函数
+	
 	    public Person(String name, int age) {
 	        this.name = name;
 	        this.age = age;
@@ -101,48 +100,48 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 
 ***
 	public void deleteNode(String personName) {
-		//情况一：链表节点数为0
-		if (isEmpty()) {
-			return ;
-		}
-		//情况二：链表中无此节点
-		if (!contains(personName)) {
-			return ;
-		}
-		//情况三：链表中只有一个节点且匹配
-		if (size == 1) {
-			head = null;
-			size = 0;
-			return ;
-		}
-		//情况四：删除的是第一个链表节点
-		int index = 0;//被删除节点的索引
-		for (PersonNode pn = head; pn != null; pn = pn.getNextNode()) {
-			if (pn.getPerson().getName().equals(personName)) {
-				break;
-			} else {
-				index++;
-			}
-		}
-		if (index == 0) {
-			head = new PersonNode(head.getNextNode().getPerson(), head.getNextNode().getNextNode());
-			size--;
-			return ;
-		}
-		//情况五：删除的不是第一个链表节点
-		 int preIndex = 0;//被删除节点的前一个节点的索引
-		 for (PersonNode pn = head; pn != null; pn = pn.getNextNode()) {
-			 if (preIndex == index - 1) {
-				 if (index == size - 1) {//删除的节点是最后一个节点
-					 pn.setNextNode(null);
-				 } else {
-					 pn.setNextNode(pn.getNextNode().getNextNode());
-				 }
-				 size--;
-				 return ;
-			 }
-			 preIndex++;
-		 }
+	    //情况一：链表节点数为0
+	    if (isEmpty()) {
+	        return ;
+	    }
+	    //情况二：链表中无此节点
+	    if (!contains(personName)) {
+	        return ;
+	    }
+	    //情况三：链表中只有一个节点且匹配
+	    if (size == 1) {
+	        head = null;
+	        size = 0;
+	        return ;
+	    }
+	    //情况四：删除的是第一个链表节点
+	    int index = 0;//被删除节点的索引
+	    for (PersonNode pn = head; pn != null; pn = pn.getNextNode()) {
+	        if (pn.getPerson().getName().equals(personName)) {
+	            break;
+	        } else {
+	            index++;
+	        }
+	    }
+	    if (index == 0) {
+	        head = new PersonNode(head.getNextNode().getPerson(), head.getNextNode().getNextNode());
+	        size--;
+	        return ;
+	    }
+	    //情况五：删除的不是第一个链表节点
+	    int preIndex = 0;//被删除节点的前一个节点的索引
+	    for (PersonNode pn = head; pn != null; pn = pn.getNextNode()) {
+	        if (preIndex == index - 1) {
+	            if (index == size - 1) {//删除的节点是最后一个节点
+	                pn.setNextNode(null);
+	            } else {
+	                pn.setNextNode(pn.getNextNode().getNextNode());
+	            }
+	            size--;
+	            return ;
+	        }
+	        preIndex++;
+	    }
 	}
 	
 ####修改人名
@@ -272,7 +271,6 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 		}
 		return false;
 	}
-
 
 详细内容请参考[GitHub源码](https://github.com/sfsheng0322/LinkedListProject)
 
