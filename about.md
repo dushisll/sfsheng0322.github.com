@@ -57,6 +57,22 @@ GitHub：sfsheng0322
 
 工作地点：	北京市
 
+项目一：[美丽屋](http://baike.baidu.com/link?url=pJ9etmYmcMOiEQo3Ol6ImD-pTkmKqpnihtdePTrSXHvcoshLfi0AhC8_gEWQO0bhVBxmQObC62VsKibT2Ne6dK)
+
+“美丽屋”是一款汇整房源、促成二手房交易的APP，是一款客户端的软件，由易遨中国自主研发。[App下载](https://dl.eallcn.com/meiliwu/c/android)
+
+主要功能如下：
+
+* 可以提交买房信息和卖房信息。
+* 二手房、新房和租房列表和房屋详情。
+* 根据城市搜房、地图搜二手房和分类搜房。
+* 纪录浏览历史，可以收藏房屋。
+* 具有IM聊天功能，文字、表情、语音、图片和地点等。
+* 特色功能具有隐号通话能力。
+* 还拥有贷款计算器和税费计算器功能。
+* 房屋信息可以分享可以举报。
+* 重要的是比较漂亮的UI界面。
+
 ***
 
 2013/2 ~ 2014/9：[山东卡尔电气股份有限公司](http://www.kaer.cn/)
