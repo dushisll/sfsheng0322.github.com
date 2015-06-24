@@ -22,7 +22,7 @@ feature-img: "img/sample_feature_img_2.png"
 
 出生日期：1989年 3月
 
-联系方式：156－9821－9533
+联系方式：156 9821 9533
 
 Email：sfsheng0322@126.com
 
@@ -59,7 +59,7 @@ GitHub：sfsheng0322
 
 项目一：[美丽屋](http://baike.baidu.com/link?url=pJ9etmYmcMOiEQo3Ol6ImD-pTkmKqpnihtdePTrSXHvcoshLfi0AhC8_gEWQO0bhVBxmQObC62VsKibT2Ne6dK)
 
-“美丽屋”是一款汇整房源、促成二手房交易的APP，是一款客户端的软件，由易遨中国自主研发。[下载App](https://dl.eallcn.com/meiliwu/c/android)
+“美丽屋”是一款汇整房源、促成二手房交易的APP，是一款客户端的软件，由易遨中国自主研发。([下载APP](https://dl.eallcn.com/meiliwu/c/android))
 
 主要功能如下：
 
