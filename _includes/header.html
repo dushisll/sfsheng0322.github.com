@@ -1,11 +1,11 @@
 <header class="site-header">
 	<div class="branding">
 		{% if site.theme.gravatar %}
-		<a href="{{ site.baseurl }}/">
+		<a href="/resume/">
 			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme.gravatar }}?s=100" alt=""/>
 		</a>
 		{% elsif site.theme.avatar %}
-		<a href="{{ site.baseurl }}/">
+		<a href="/resume/">
 			<img class="avatar" src="/img/{{ site.theme.avatar }}" alt=""/>
 		</a>
 		{% endif %}
@@ -15,17 +15,19 @@
 	</div>
 	<nav class="site-nav">
 		<ul>
-			{% for page in site.pages %}
-			{% if page.title and page.hide != true %}
+
 			<li>
-				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-					{{ page.title }}
+				<a class="page-link" href="/about/">
+					关于
 				</a>
 			</li>
-			{% endif %}
-			{% endfor %}
-			<!-- Social icons from Font Awesome, if enabled -->
-			{% include icons.html %}
+
+			<li>
+				<a href="https://github.com/sfsheng0322">
+					<img class="github" src="/img/icon_github.png" alt=""/>
+				</a>
+			</li>
+
 		</ul>
 	</nav>
 </header>

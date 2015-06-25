@@ -5,7 +5,7 @@ layout: default
 <div class="home">
   {% if site.theme.header_text %}
   <div class="call-out" 
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
+  style="background-color: #009688">
     {{ site.theme.header_text }}
   </div>
   {% endif %}
@@ -14,7 +14,7 @@ layout: default
     {% for post in paginator.posts %}
     <div class="post-teaser">
       <header>
-        <h1>
+        <h1 style="font-size: 2.0em;">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
           </a>
@@ -25,7 +25,7 @@ layout: default
       </header>
       <div class="excerpt">
         {{ post.excerpt }}
-        <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+        <a class="button" style="display:none" href="{{ post.url | prepend: site.baseurl }}">
           {{ site.theme.str_continue_reading }}
         </a>
       </div>

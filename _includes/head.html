@@ -9,26 +9,20 @@
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
 	<!--Favicon-->
-	<link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
-
-	<!-- Canonical -->
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-	<!-- RSS -->
-	<link rel="alternate" type="application/atom+xml" title="{{ site.theme.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+	<link rel="shortcut icon" href="{{ "/img/icon_github.png" | prepend: site.baseurl }}" type="image/x-icon">
 
 	<!-- Font Awesome -->
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="{{ "/css/font_awesome_min.css" | prepend: site.baseurl }}" rel="stylesheet">
 
 	<!-- Google Fonts -->
 	{% if site.theme.google_fonts %}
-	<link href="//fonts.googleapis.com/css?family={{ site.theme.google_fonts }}" rel="stylesheet" type="text/css">
+	<link href="/css/font_faces" rel="stylesheet" type="text/css">
 	{% endif %}
 
 	<!-- KaTeX -->
 	{% if site.theme.katex %}
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	<link rel="stylesheet" href="{{ "/css/katex_min.css" | prepend: site.baseurl }}">
+	<script src="{{ "/js/katex_min.js" | prepend: site.baseurl }}"></script>
 	{% endif %}
 
 	<!-- Google Analytics -->
