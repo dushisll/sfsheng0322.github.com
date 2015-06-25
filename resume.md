@@ -2,7 +2,7 @@
 layout: page
 title: 个人简历
 permalink: /resume/
-feature-img: "img/sample_feature_img_2.png"
+feature-img: "img/sample_feature_img_3.png"
 ---
 
 ###个人信息
