@@ -57,7 +57,7 @@ GitHub：sfsheng0322
 
 工作地点：	北京市
 
-项目一：[美丽屋](http://baike.baidu.com/link?url=pJ9etmYmcMOiEQo3Ol6ImD-pTkmKqpnihtdePTrSXHvcoshLfi0AhC8_gEWQO0bhVBxmQObC62VsKibT2Ne6dK)
+项目：[美丽屋和美丽屋经纪人](http://baike.baidu.com/link?url=pJ9etmYmcMOiEQo3Ol6ImD-pTkmKqpnihtdePTrSXHvcoshLfi0AhC8_gEWQO0bhVBxmQObC62VsKibT2Ne6dK)
 
 “美丽屋”是一款汇整房源、促成二手房交易的APP，是一款客户端的软件，由易遨中国自主研发。([下载APP](https://dl.eallcn.com/meiliwu/c/android))
 
@@ -73,7 +73,17 @@ GitHub：sfsheng0322
 * 房屋信息可以分享可以举报。
 * 重要的是有比较漂亮的UI界面。
 
-该项目用到主要的技术如下：
+在上一个公司是用的Eclipse开发的，现在的公司使用的Android Studio开发，Studio下开发使用第三方插件和编译GitHub上的库
+还是比较方便的，比如公司的美丽屋和美丽屋经纪人在项目中引用和编译了GitHub上二十多个库。具体用到的技术我就不一一列举了。
+项目中用到的技术点还是比较多的，我们团队四人经过半年多的时间和产品大的改版形成现在的产品形态和软件风格。
+在这个项目的两个客户端中我的开发内容主要体现在下面这些点：
+
+* 第一版时的注册和登录还有介绍页。
+* 写了许多的列表，并引入GitHub上的SwipeMenuListView滑动删除的库。
+* 房屋详情页的实现，并自定义大量的View。
+* 完成第一版的税费计算器和新版的贷款计算器功能。
+* 完善IM的通知处理，修改IM相关的Bug。
+
 
 <br/>
 

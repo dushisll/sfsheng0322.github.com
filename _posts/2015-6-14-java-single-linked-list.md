@@ -175,7 +175,7 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 		p.setAge(age);
 	}
 	
-####根据人名搜索这个人的节点
+####根据人名搜索这个人的信息
 
 ***
 	public Person searchPerson(String personName) {
