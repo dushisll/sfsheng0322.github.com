@@ -16,7 +16,25 @@ title: Android沉浸式通知栏
 
 #### 其次，在Activity中加入如下代码：
 
-	明天在这里添加代码啊，代码落在公司了，嘿嘿～
+	public void initSystemBarTint(boolean on, int res) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            setTranslucentStatus(on);
+            SystemBarTintManager tintManager = new SystemBarTintManager(this);
+            tintManager.setStatusBarTintEnabled(on);
+            tintManager.setStatusBarTintResource(res);
+        }
+    }
+
+    private void setTranslucentStatus(boolean on) {
+        Window win = getWindow(); WindowManager.LayoutParams winParams = win.getAttributes();
+        int bits = WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS;
+        if (on) {
+            winParams.flags |= bits;
+        } else {
+            winParams.flags &= ~bits;
+        }
+        win.setAttributes(winParams);
+    }
 
 #### 最后，在对应Activity的根布局中加入下面的属性即完成。
 
