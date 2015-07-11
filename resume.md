@@ -22,8 +22,6 @@ feature-img: "img/sample_feature_img_3.png"
 
 出生日期：1989年 3月
 
-联系方式：156 9821 9533
-
 Email：sfsheng0322@126.com
 
 GitHub：sfsheng0322
