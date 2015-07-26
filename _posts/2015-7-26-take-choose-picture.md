@@ -12,35 +12,67 @@ title: 拍照和从相册选择图片
 ![](/img/android_take_choose_picture.png)
 ![](/img/android_take_choose_picture1.png)
 
-完成这样的效果很简单，GitHub上已经实现对应的[库](https://github.com/jgilfelt/SystemBarTint)。
+有图有真相，下面是真相：
 
-#### 首先，Studio下添加依赖或者引入相应的jar文件。
+###首先调系统的拍照和从相册选择图片的界面
 
-	compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    public static final int TAKE_PICTURE_REQUEST_CODE = 7;
+    public static final int CHOOSE_PICTURE_REQUEST_CODE = 23;
 
-#### 其次，在Activity中加入如下代码：
+    //拍照
+    public static void gotoTakePicture(Activity activity, String takePicturePath) {
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        Uri uri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(), takePicturePath));
+        intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+        activity.startActivityForResult(intent, TAKE_PICTURE_REQUEST_CODE);
+    }
 
-	public void initSystemBarTint(boolean on, int res) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            setTranslucentStatus(on);
-            SystemBarTintManager tintManager = new SystemBarTintManager(this);
-            tintManager.setStatusBarTintEnabled(on);
-            tintManager.setStatusBarTintResource(res);
+    //从相册选择
+    public static void gotoChoosePicture(Activity activity) {
+        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+        intent.setType("image/*");
+        activity.startActivityForResult(intent, CHOOSE_PICTURE_REQUEST_CODE);
+    }
+
+###在相应的界面下处理返回的数据，onActivityResult()方法中处理
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode == RESULT_OK) {
+            switch (requestCode) {
+                case NavigateManager.TAKE_PICTURE_REQUEST_CODE:
+                    imagePath = Environment.getExternalStorageDirectory() + takePicturePath;
+                    setImageViewWithPath(civUserAvatar, imagePath);
+                    break;
+                case NavigateManager.CHOOSE_PICTURE_REQUEST_CODE:
+                    Uri uri = data.getData();
+                    if (uri != null) {
+                        String[] proj = {MediaStore.Images.Media.DATA};
+                        Cursor cursor = getContentResolver().query(uri, proj, null, null, null);
+                        if (cursor != null && cursor.moveToFirst()) {
+                            imagePath = cursor.getString(cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA));
+                            setImageViewWithPath(civUserAvatar, imagePath);
+                            cursor.close();
+                        }
+                    }
+                    break;
+            }
         }
     }
 
-    private void setTranslucentStatus(boolean on) {
-        Window win = getWindow(); WindowManager.LayoutParams winParams = win.getAttributes();
-        int bits = WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS;
-        if (on) {
-            winParams.flags |= bits;
-        } else {
-            winParams.flags &= ~bits;
-        }
-        win.setAttributes(winParams);
+###这就完了吗？显然还没有，图片显示也考验着软件的性能，原来我自己处理返回的图片并转换为Bitmap再缩放，可偶尔还是会出现OutOfMemoryError，这样还是有风险的。
+想想为甚要重新造轮子，用现在开源的ImageLoader可以安全轻松搞定。
+
+    private void setImageViewWithPath(ImageView imageView, String imagePath) {
+        DisplayImageOptions imageOptions = new DisplayImageOptions.Builder().cacheInMemory(true).cacheOnDisc(true)
+            .showImageOnLoading(R.drawable.ic_user)
+            .showImageForEmptyUri(R.drawable.ic_user)
+            .showImageOnFail(R.drawable.ic_user)
+            .build();
+
+        ImageLoader.getInstance().displayImage("file://" + imagePath, imageView, imageOptions);
     }
 
-#### 最后，在对应Activity的根布局中加入下面的属性即完成。
 
-	android:fitsSystemWindows=”true” 
 
