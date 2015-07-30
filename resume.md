@@ -24,8 +24,11 @@ feature-img: "img/sample_feature_img_3.png"
 
 Email：sfsheng0322@126.com
 
-GitHub：sfsheng0322
+GitHub：https://github.com/sfsheng0322
 
+博客主页：https://sfsheng0322.github.io
+
+网页简历：https://sfsheng0322.github.io/resume
 <br/>
 
 ###教育经历
@@ -41,7 +44,6 @@ GitHub：sfsheng0322
 * 在校期间学习了多种计算机应用技术如C语言程序设计、计算机原理、面向对象程序设计等。
 * 大二进入校电子实验室至毕业，期间参加校内智能车比赛和全国大学生电子设计大赛并获得优秀奖。
 * 大四上学期在北京达内科技培训嵌入式软件开发，主要学习C、C++、MySql、Linux下操作与嵌入式驱动编程。
-
 <br/>
 
 ###工作经历
@@ -81,8 +83,6 @@ GitHub：sfsheng0322
 * 房屋详情页的实现，并自定义大量的View。
 * 完成第一版的税费计算器和新版的贷款计算器功能。
 * 完善IM的通知处理，修改IM相关的Bug。
-
-
 <br/>
 
 ***
@@ -130,7 +130,6 @@ GitHub：sfsheng0322
 * 通过WebService接口与服务器交互，获取相关信息。
 * 使用SQlite数据库处理企业通讯录数据。
 * 操作本机电话号码簿与显示。
-
 <br/>
 
 ###自我描述
