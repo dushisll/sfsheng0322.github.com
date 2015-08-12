@@ -11,13 +11,15 @@ WebViewClient就是帮助WebView处理各种通知、请求事件的。<br/>
 
 ###加载资源
 
-加载本地资源<br/>
-webView = (WebView) findViewById(R.id.webView);<br/>
-webView.loadUrl("file:///android_asset/example.html");<br/>
+加载本地资源
 
-加载网络资源<br/>
-webView = (WebView) findViewById(R.id.webView);<br/>
-webView.loadUrl("http://baidu.com");<br/>
+    webView = (WebView) findViewById(R.id.webView);
+    webView.loadUrl("file:///android_asset/example.html");
+
+加载网络资源
+
+    webView = (WebView) findViewById(R.id.webView);
+    webView.loadUrl("http://baidu.com");
 
 上面加载网络资源会加载不出来，实际使用如下：
 
@@ -33,58 +35,60 @@ webView.loadUrl("http://baidu.com");<br/>
 
 ###WebSettings的常用方法介绍
 
-setJavaScriptEnabled(true);  //支持js
+    setJavaScriptEnabled(true);  //支持js
+    setPluginsEnabled(true);  //支持插件 
 
-setPluginsEnabled(true);  //支持插件 
+    setLoadsImagesAutomatically(true);  //支持自动加载图片
+    setUseWideViewPort(false);  //将图片调整到适合webview的大小 
+    setLayoutAlgorithm(LayoutAlgorithm.SINGLE_COLUMN); //支持内容重新布局  
 
-setUseWideViewPort(false);  //将图片调整到适合webview的大小 
+    setLoadWithOverviewMode(true); // 缩放至屏幕的大小
+    settings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
+    settings.setLoadWithOverviewMode(true); //自适应屏幕
+    settings.setMinimumFontSize(18); //设置最小的字体大小
 
-setSupportZoom(true);  //支持缩放 
+    settings.setSupportZoom(true); //支持缩放
+    settings.setBuiltInZoomControls(true); //支持手势缩放
+    settings.setDisplayZoomControls(false); //是否显示缩放按钮
 
-setLayoutAlgorithm(LayoutAlgorithm.SINGLE_COLUMN); //支持内容重新布局  
-
-webview webSettings.setBuiltInZoomControls(true); //设置支持缩放 
-
-setLoadWithOverviewMode(true); // 缩放至屏幕的大小
-
-setLoadsImagesAutomatically(true);  //支持自动加载图片
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+        webView.setLayerType(View.LAYER_TYPE_SOFTWARE, null); //启动硬件加速
+    }
 
 ###WebViewClient的方法介绍
 
-onLoadResource(WebView view, String url) // 在加载页面资源时会调用，每一个资源（比如图片）的加载都会调用一次。 
+    onLoadResource(WebView view, String url) // 在加载页面资源时会调用，每一个资源（比如图片）的加载都会调用一次。 
 
-onPageStarted(WebView view, String url, Bitmap favicon) //这个事件就是开始载入页面调用的，通常我们可以在这设定一个loading的页面，告诉用户程序在等待网络响应。 
+    onPageStarted(WebView view, String url, Bitmap favicon) //这个事件就是开始载入页面调用的，通常我们可以在这设定一个loading的页面，告诉用户程序在等待网络响应。 
 
-onPageFinished(WebView view, String url) //在页面加载结束时调用。同样道理，我们知道一个页面载入完成，于是我们可以关闭loading 条，切换程序动作。 
+    onPageFinished(WebView view, String url) //在页面加载结束时调用。同样道理，我们知道一个页面载入完成，于是我们可以关闭loading 条，切换程序动作。 
 
-onReceivedError(WebView view, int errorCode, String description, String failingUrl)// (报告错误信息) 
+    onReceivedError(WebView view, int errorCode, String description, String failingUrl)// (报告错误信息) 
 
-onReceivedHttpAuthRequest(WebView view, HttpAuthHandler handler, String host,String realm)//（获取返回信息授权请求） 
- 
-onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) //重写此方法可以让webview处理https请求。
+    onReceivedHttpAuthRequest(WebView view, HttpAuthHandler handler, String host,String realm)//（获取返回信息授权请求） 
+     
+    onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) //重写此方法可以让webview处理https请求。
 
-shouldOverrideUrlLoading(WebView view, String url) 
-//在点击请求的是链接是才会调用，重写此方法返回true表明点击网页里面的链接还是在当前的webview里跳转，不跳到浏览器那边。这个函数我们可以做很多操作，比如我们读取到某些特殊的URL，于是就可以不打开地址，取消这个操作，进行预先定义的其他操作，这对一个程序是非常必要的。
+    shouldOverrideUrlLoading(WebView view, String url) 
+    //在点击请求的是链接是才会调用，重写此方法返回true表明点击网页里面的链接还是在当前的webview里跳转，不跳到浏览器那边。这个函数我们可以做很多操作，比如我们读取到某些特殊的URL，于是就可以不打开地址，取消这个操作，进行预先定义的其他操作，这对一个程序是非常必要的。
 
 ###按返回键时，不退出程序而是返回上一浏览页面
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (keyCode == KeyEvent.KEYCODE_BACK) {
-            if (webView.canGoBack()) {
-                webView.goBack();//返回上一页面
-                return true;
-            } else {
-                finish();
-            }
+        if (keyCode == KeyEvent.KEYCODE_BACK && webView.canGoBack()) {
+            webView.goBack();//返回上一页面
+            return true;
         }
         return super.onKeyDown(keyCode, event);
     }
 
 ###缓存的使用
 
-优先使用缓存<br/>
+优先使用缓存:
+
 webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
 
-不使用缓存：<br/>
+不使用缓存:
+
 webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
