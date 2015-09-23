@@ -46,6 +46,22 @@ GitHub：https://github.com/sfsheng0322
 * 大四上学期在北京达内科技培训嵌入式软件开发，主要学习C、C++、MySql、Linux下操作与嵌入式驱动编程。
 <br/>
 
+###我的作品
+***
+
+BingoWorld是一款IT阅读学习类软件，在不久的将来会拥有丰富的学习内容，包含Android、iOS技术文章和相关面试题等。推荐您也来用用来看看，您也可以发布自己的Bingo链接文章。<br/>
+[APP下载地址](https://fir.im/bingoworld)<br/>
+[GitHub开源地址](https://github.com/sfsheng0322/Bingo)<br/>
+
+####用到的开源库
+
+* esperandro保存本地数据
+* SystemBarTint沉浸式状态栏
+* Material Dialog对话框
+* LogUtils打印日志信息
+* PhotoView查看图片
+* LoadingView加载动画
+
 ###工作经历
 ***
 
