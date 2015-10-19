@@ -55,12 +55,13 @@ BingoWorld是一款IT阅读学习类软件，在不久的将来会拥有丰富�
 
 ####用到的开源库
 
-* esperandro保存本地数据
-* SystemBarTint沉浸式状态栏
-* Material Dialog对话框
-* LogUtils打印日志信息
-* PhotoView查看图片
-* LoadingView加载动画
+* esperandro 保存本地数据
+* SystemBarTint 沉浸式状态栏
+* Material Dialog 对话框
+* LogUtils 打印日志信息
+* PhotoView 查看图片
+* LoadingView 加载动画
+* EventBus 事件总线
 
 ###工作经历
 ***
