@@ -50,33 +50,36 @@ GitHub：https://github.com/sfsheng0322
 ***
 
 BingoWorld是一款IT阅读学习类软件，在不久的将来会拥有丰富的学习内容，包含Android、iOS技术文章和相关面试题等。推荐您也来用用来看看，您也可以发布自己的Bingo链接文章。<br/>
-[APP下载地址](https://fir.im/bingoworld)<br/>
-[GitHub开源地址](https://github.com/sfsheng0322/Bingo)<br/>
+[下载 BingoWorld](https://fir.im/bingoworld)<br/>
+[GitHub 开源地址](https://github.com/sfsheng0322/Bingo)<br/>
 
 ####用到的开源库
 
-* esperandro 保存本地数据
-* SystemBarTint 沉浸式状态栏
-* Material Dialog 对话框
-* LogUtils 打印日志信息
-* PhotoView 查看图片
-* LoadingView 加载动画
-* EventBus 事件总线
+* [ImageLoader](https://github.com/nostra13/Android-Universal-Image-Loader) 图片缓存库
+* [esperandro](https://github.com/dkunzler/esperandro) 保存本地数据
+* [SystemBarTint](https://github.com/jgilfelt/SystemBarTint) 沉浸式状态栏
+* [Material Dialog](https://github.com/afollestad/material-dialogs) 对话框
+* [Logger](https://github.com/orhanobut/logger) 打印日志信息
+* [PhotoView](https://github.com/chrisbanes/PhotoView) 查看图片
+* [LoadingView](https://github.com/zzz40500/android-shapeLoadingView) 加载动画
+* [EventBus](https://github.com/greenrobot/EventBus) 事件总线
 
 ###工作经历
 ***
 
-2014/10 ~ 至今：[易遨中国](http://www.eallcn.com/)
+2014/10 ~ 至今：[创新工场－易遨中国](http://www.eallcn.com/)
 
 公司简介：易遨中国全称天津易遨在线科技有限公司，创新工场下孵化企业，致力于房地产中介管理实践，主要从事房产中介企业内部运营管理软件研发，公司所提供的SAAS式ERP目前已成功应用于2万多家企业、6万多家门店的200多万终端用户，连续摘得房产中介管理软件领域市场占有率的桂冠。
 
-我的职务：	Android开发工程师
-
+我的职务：	Android开发工程师<br/>
 工作地点：	北京市
 
-项目：[美丽屋和美丽屋经纪人](http://baike.baidu.com/link?url=pJ9etmYmcMOiEQo3Ol6ImD-pTkmKqpnihtdePTrSXHvcoshLfi0AhC8_gEWQO0bhVBxmQObC62VsKibT2Ne6dK)
+项目：[美丽屋](http://bj.meiliwu.com/)和[有个家](http://bj.yougejia.com/)
 
-“美丽屋”是一款汇整房源、促成二手房交易的APP，是一款客户端的软件，由易遨中国自主研发。([下载APP](https://dl.eallcn.com/meiliwu/c/android))
+“美丽屋”是一款随时查询、约看房源、在线订房、签约，让租房跟购物一样简单的APP，由创新工场－易遨中国自主研发。<br/>
+“有个家”是一款提供全新的买房、卖房体验的APP，由创新工场－易遨中国自主研发。<br/>
+[下载 美丽屋](https://dl.eallcn.com/rent/c/android)<br/>
+[下载 有个家](http://a.app.qq.com/o/simple.jsp?pkgname=com.eallcn.chow&g_f=991653)<br/>
 
 主要功能如下：
 
@@ -90,16 +93,16 @@ BingoWorld是一款IT阅读学习类软件，在不久的将来会拥有丰富�
 * 房屋信息可以分享可以举报。
 * 重要的是有比较漂亮的UI界面。
 
-在上一个公司是用的Eclipse开发的，现在的公司使用的Android Studio开发，Studio下开发使用第三方插件和编译GitHub上的库
-还是比较方便的，比如公司的美丽屋和美丽屋经纪人在项目中引用和编译了GitHub上二十多个库。具体用到的技术我就不一一列举了。
+在卡尔电气是用的Eclipse开发的，现在的公司使用的Android Studio开发，Studio下开发使用第三方插件和编译GitHub上的库
+还是比较方便的，比如公司的美丽屋和美丽屋经纪人在项目中引用和编译了GitHub上二十多个库。
 项目中用到的技术点还是比较多的，我们团队四人经过半年多的时间和产品大的改版形成现在的产品形态和软件风格。
 在这个项目的两个客户端中我的开发内容主要体现在下面这些点：
 
 * 第一版时的注册和登录还有介绍页。
-* 写了许多的列表，并引入GitHub上的SwipeMenuListView滑动删除的库。
-* 房屋详情页的实现，并自定义大量的View。
+* 列表抽象出BaseListAdpater和BasePullToRefreshActivity，并引入GitHub上的SwipeMenuListView滑动删除的库。
+* 租房详情页的实现，并自定义大量的View。
 * 完成第一版的税费计算器和新版的贷款计算器功能。
-* 完善IM的通知处理，修改IM相关的Bug。
+* 完善IM的通知处理，完善IM相关功能。
 <br/>
 
 ***
@@ -108,8 +111,7 @@ BingoWorld是一款IT阅读学习类软件，在不久的将来会拥有丰富�
 
 公司简介：山东卡尔电气股份有限公司主要从事通信终端、安防视频终端的研究、开发、生产与销售，是集科工贸为一体的科研型高科技股份制企业。
 
-我的职务：	Android开发工程师(下面两个项目都是我自己独立开发完成的)
-
+我的职务：	Android开发工程师(下面两个项目都是独立开发完成的)<br/>
 工作地点：	威海市
 
 项目一：[世界通](http://www.kaer.cn/pro-836.html)
