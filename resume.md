@@ -24,11 +24,13 @@ feature-img: "img/sample_feature_img_3.png"
 
 Email：sfsheng0322@126.com
 
-GitHub：https://github.com/sfsheng0322
+[GitHub](https://github.com/sfsheng0322)：https://github.com/sfsheng0322
 
-博客主页：https://sfsheng0322.github.io
+[博客主页](https://sfsheng0322.github.io)：https://sfsheng0322.github.io
 
-网页简历：https://sfsheng0322.github.io/resume
+[网页简历](https://sfsheng0322.github.io/resume)：https://sfsheng0322.github.io/resume
+
+[新浪微博](http://weibo.com/3852192525/profile?topnav=1&wvr=6)：孙福生微博
 <br/>
 
 ###教育经历
