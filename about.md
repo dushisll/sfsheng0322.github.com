@@ -5,7 +5,6 @@ permalink: /about/
 feature-img: "img/sample_feature_img.png"
 ---
 
-
 我的博客使用的是[Jekyll](http://jekyll.bootcss.com/)生成工具完成的。
 
 感觉Jekyll棒棒哒！顺便在这里介绍下，亦是推荐哦～
