@@ -4,8 +4,8 @@ title: 自定义View实现图片上传进度显示
 ---
 
 最近自己在做个app名叫Bingo，其中需要上传图片到服务器上，于是仿QQ传输图片的效果实现图片上传功能，效果如下面两张图片：<br/>
-![](/img/icon_custom_view1.png)(图一)
-![](/img/icon_custom_view2.png)(图二)
+![](/img/upload_pic.gif)
+![](/img/upload_avatar.gif)
 
 
 ###初始化Paint画笔
