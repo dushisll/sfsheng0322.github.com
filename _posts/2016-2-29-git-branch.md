@@ -67,7 +67,7 @@ $ git branch -d fixbug-v0.2
 
 
 提几个注意的点，以后会继续更新这个blog：  
-1、我们并不需要克隆一份dev分支的工程代码，有些人可能不知道哦  
-2、如果当前在dev分支上，我们要把dev分支上的代码合并到master分支上，执行  
-$ git merge --no-ff dev  相反反之
+1、我们并不需要克隆一份dev分支的工程代码，有些人可能不知道哦。  
+2、如果当前在dev分支上，我们要把dev分支上的代码合并到master分支上，需要切换到master分支上并执行  
+$ git merge --no-ff dev  相反亦然
 
