@@ -1,6 +1,10 @@
 ---
 layout: post
+author: 孙福生
 title: Android手机录视频转Gif格式
+cover: "zzz"
+categories: 工具
+tags: Util Mac
 ---
 这篇博客主要为开发人员解决Android手机录视频转Gif格式难的痛点：<br/>
 1、Mac系统下通过bash连接Android手机<br/>
@@ -10,7 +14,7 @@ title: Android手机录视频转Gif格式
 
 ###以[《我的作品－Bingoworld》](http://sfsheng0322.github.io/2015/09/09/bingo.html)为例
 
-![](/img/bingo.gif)
+![](/assets/bingo.gif)
 
 ###1、Mac系统下通过bash连接Android手机
 

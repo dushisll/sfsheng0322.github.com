@@ -1,12 +1,16 @@
 ---
 layout: post
-title: 自定义View实现图片上传进度显示
+author: 孙福生
+title: 自定义ImageView实现图片上传进度显示
+cover: "zzz"
+categories: Android
+tags: Technology
 ---
 
 最近自己在做个app名叫Bingo，其中需要上传图片到服务器上，于是仿QQ传输图片的效果实现图片上传功能，效果如下面两张图片：<br/>
-![](/img/upload_pic.gif)
-![](/img/upload_avatar.gif)
+![](/assets/upload_avatar.gif)
 
+![](/assets/upload_pic.gif)
 
 ###初始化Paint画笔
 
@@ -90,8 +94,8 @@ title: 自定义View实现图片上传进度显示
 TextPaint是Paint的子类，用它可以很方便的进行文字的绘制，一般情况下遇到绘制文字的需求时，我们一般用TextPaint所提供的方法。
  绘制text的高度的时候会用到textPaint.descent()和textPaint.ascent()，他们的意义如下：
 
-![](/img/capture_custom_view_textpaint1.png)
-![](/img/capture_custom_view_textpaint2.png)
+![](/assets/capture_custom_view_textpaint1.png)
+![](/assets/capture_custom_view_textpaint2.png)
 
 Baseline是基线，在Android中，文字的绘制都是从Baseline处开始的，Baseline往上至字符“最高处”的距离我们称之为ascent（上坡度），Baseline往下至字符“最低处”的距离我们称之为descent（下坡度），leading（行间距）则表示上一行字符的descent到该行字符的ascent之间的距离。
 

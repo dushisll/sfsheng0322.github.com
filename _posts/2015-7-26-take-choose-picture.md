@@ -1,6 +1,10 @@
 ---
 layout: post
+author: 孙福生
 title: 拍照和从相册选择图片
+cover: "zzz"
+categories: Android
+tags: Technology
 ---
 
 好久没有写博客了，感到深深的自责。这是一个以分享为乐的时代，显然这段时间我对不起这个时代了，呵呵。
@@ -9,8 +13,8 @@ title: 拍照和从相册选择图片
 
 效果图如下：
 
-![](/img/android_take_choose_picture.png)
-![](/img/android_take_choose_picture1.png)
+![](/assets/android_take_choose_picture.png)
+![](/assets/android_take_choose_picture1.png)
 
 有图有真相，下面是真相：
 

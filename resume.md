@@ -1,9 +1,3 @@
----
-layout: page
-title: 个人简历
-permalink: /resume/
-feature-img: "img/sample_feature_img_3.png"
----
 
 ###个人信息
 ***
@@ -38,10 +32,9 @@ Email：sfsheng0322@126.com
 
 2009/9 ~ 2013/6：山东工商学院
 
-* 在校期间学习了多种计算机应用技术如C语言程序设计、计算机原理、面向对象程序设计等。
-* 大二进入校电子实验室至毕业，期间参加校内智能车比赛和全国大学生电子设计大赛并获得优秀奖。
-* 大四上学期在北京达内科技培训嵌入式软件开发，主要学习C、C++、MySql、Linux下操作与嵌入式驱动编程。
-<br/>
+	* 在校期间学习了多种计算机应用技术如C语言程序设计、计算机原理、面向对象程序设计等。
+	* 大二进入校电子实验室至毕业，期间参加校内智能车比赛和全国大学生电子设计大赛并获得优秀奖。
+	* 大四上学期在北京达内科技培训嵌入式软件开发，主要学习C、C++、MySql、Linux下操作与嵌入式驱动编程。
 
 ###我的作品
 ***
@@ -52,14 +45,14 @@ BingoWorld是一款IT阅读学习类软件，在不久的将来会拥有丰富�
 
 ####用到的开源库
 
-* [ImageLoader](https://github.com/nostra13/Android-Universal-Image-Loader) 图片缓存库
-* [esperandro](https://github.com/dkunzler/esperandro) 保存本地数据
-* [SystemBarTint](https://github.com/jgilfelt/SystemBarTint) 沉浸式状态栏
-* [Material Dialog](https://github.com/afollestad/material-dialogs) 对话框
-* [Logger](https://github.com/orhanobut/logger) 打印日志信息
-* [PhotoView](https://github.com/chrisbanes/PhotoView) 查看图片
-* [LoadingView](https://github.com/zzz40500/android-shapeLoadingView) 加载动画
-* [EventBus](https://github.com/greenrobot/EventBus) 事件总线
+[ImageLoader](https://github.com/nostra13/Android-Universal-Image-Loader) 图片缓存库  
+[esperandro](https://github.com/dkunzler/esperandro) 保存本地数据  
+[SystemBarTint](https://github.com/jgilfelt/SystemBarTint) 沉浸式状态栏  
+[Material Dialog](https://github.com/afollestad/material-dialogs) 对话框  
+[Logger](https://github.com/orhanobut/logger) 打印日志信息  
+[PhotoView](https://github.com/chrisbanes/PhotoView) 查看图片  
+[LoadingView](https://github.com/zzz40500/android-shapeLoadingView) 加载动画  
+[EventBus](https://github.com/greenrobot/EventBus) 事件总线  
 
 ###工作经历
 ***
@@ -86,27 +79,26 @@ BingoWorld是一款IT阅读学习类软件，在不久的将来会拥有丰富�
 
 开发过程中设计的主要功能如下：
 
-* 可以提交买房信息和卖房信息。
-* 二手房、新房和租房列表和房屋详情。
-* 根据城市搜房、地图搜二手房和分类搜房。
-* 纪录浏览历史，可以收藏房屋。
-* 具有IM聊天功能，文字、表情、语音、图片和地点等。
-* 特色功能具有隐号通话能力。
-* 还拥有贷款计算器和税费计算器功能。
-* 房屋信息可以分享可以举报。
-* 重要的是有比较漂亮的UI界面。
+	* 可以提交买房信息和卖房信息。
+	* 二手房、新房和租房列表和房屋详情。
+	* 根据城市搜房、地图搜二手房和分类搜房。
+	* 纪录浏览历史，可以收藏房屋。
+	* 具有IM聊天功能，文字、表情、语音、图片和地点等。
+	* 特色功能具有隐号通话能力。
+	* 还拥有贷款计算器和税费计算器功能。
+	* 房屋信息可以分享可以举报。
+	* 重要的是有比较漂亮的UI界面。
 
 在卡尔电气是用的Eclipse开发的，现在的公司使用的Android Studio开发，Studio下开发使用第三方插件和编译GitHub上的库
 还是比较方便的，比如公司的美丽屋和美丽屋经纪人在项目中引用和编译了GitHub上二十多个库。
 项目中用到的技术点还是比较多的，我们团队四人经过半年多的时间和产品大的改版形成现在的产品形态和软件风格。
 在这个项目的两个客户端中我的开发内容主要体现在下面这些点：
 
-* 第一版时的注册和登录还有介绍页。
-* 列表抽象出BaseListAdpater和BasePullToRefreshActivity，并引入GitHub上的SwipeMenuListView滑动删除的库。
-* 租房详情页的实现，并自定义大量的View。
-* 完成第一版的税费计算器和新版的贷款计算器功能。
-* 完善IM的通知处理，完善IM相关功能。
-<br/>
+	* 第一版时的注册和登录还有介绍页。
+	* 列表抽象出BaseListAdpater和BasePullToRefreshActivity，并引入GitHub上的SwipeMenuListView滑动删除的库。
+	* 租房详情页的实现，并自定义大量的View。
+	* 完成第一版的税费计算器和新版的贷款计算器功能。
+	* 完善IM的通知处理，完善IM相关功能。
 
 ***
 
@@ -118,19 +110,19 @@ BingoWorld是一款IT阅读学习类软件，在不久的将来会拥有丰富�
 
 该项目主要功能是实现带穿透功能(P2P)的实时视频监控功能，具体功能如下：
 
-* 实时视频的查看，视频分辨率可以选择（高清、均衡、流畅）。	
-* 远程录像回放，播放终端设备上的历史视频。	
-* 拥有抓拍和录像功能。	
-* 二维码扫描添加设备。	
-* 接收服务器推送的终端报警消息。	
+	* 实时视频的查看，视频分辨率可以选择（高清、均衡、流畅）。	
+	* 远程录像回放，播放终端设备上的历史视频。	
+	* 拥有抓拍和录像功能。	
+	* 二维码扫描添加设备。	
+	* 接收服务器推送的终端报警消息。	
 
 该项目主要用到的技术如下：
 
-* Android FragmentActivity框架用来实现（实时、历史、消息和更多）界面的快速切换。	
-* 使用ZMQ通讯机制，它像是一个底层的网络通讯库，在Socket API之上做了一层封装，将网络通讯、进程通讯和线程通讯抽象为统一的API接口，简单好用。	
-* 通过JNI调用H264解码库解析终端设备发送的视频和音频数据。	
-* 代码的版本控制，提交到公司的git服务器上。	
-* 从github上下载事例源码参考，修改后在项目中使用。	
+	* Android FragmentActivity框架用来实现（实时、历史、消息和更多）界面的快速切换。	
+	* 使用ZMQ通讯机制，它像是一个底层的网络通讯库，在Socket API之上做了一层封装，将网络通讯、进程通讯和线程通讯抽象为统一的API接口，简单好用。	
+	* 通过JNI调用H264解码库解析终端设备发送的视频和音频数据。	
+	* 代码的版本控制，提交到公司的git服务器上。	
+	* 从github上下载事例源码参考，修改后在项目中使用。	
 
 项目二：[蓝牙智能固话](http://www.kaer.cn/pro-834.html)
 
@@ -138,22 +130,21 @@ BingoWorld是一款IT阅读学习类软件，在不久的将来会拥有丰富�
 
 该项目是和终端话机配合使用的一款企业通讯录软件，具体功能如下：
 
-* Android客户端通过蓝牙连接话机，相应的控制指令也是通过蓝牙连接互传包括通话记录。
-* 客户端通过WebService接口与服务器交互获取更新通讯录相关信息，再通过Http多线程下载数据库数据。
-* 该项目同时将本机的电话号码簿信息读取出来显示。
-* 客户端支持单模PSTN、GSM或双模PSTN和GSM界面布局和操作。
+	* Android客户端通过蓝牙连接话机，相应的控制指令也是通过蓝牙连接互传包括通话记录。
+	* 客户端通过WebService接口与服务器交互获取更新通讯录相关信息，再通过Http多线程下载数据库数据。
+	* 该项目同时将本机的电话号码簿信息读取出来显示。
+	* 客户端支持单模PSTN、GSM或双模PSTN和GSM界面布局和操作。
 
 该项目用到的主要技术点如下：
 
-* Android蓝牙控制，传输数据。
-* 通过WebService接口与服务器交互，获取相关信息。
-* 使用SQlite数据库处理企业通讯录数据。
-* 操作本机电话号码簿与显示。
-<br/>
+	* Android蓝牙控制，传输数据。
+	* 通过WebService接口与服务器交互，获取相关信息。
+	* 使用SQlite数据库处理企业通讯录数据。
+	* 操作本机电话号码簿与显示。
 
 ###我的微信
 
-![](/img/my_wechat.png)
+![](/assets/my_wechat.png)
 
 
 

@@ -1,6 +1,10 @@
 ---
 layout: post
+author: 孙福生
 title: Android截屏并对图片做高斯模糊处理
+cover: "zzz"
+categories: Android
+tags: Technology
 ---
 
 本文使用仅仅是使用[Blurring Github库](https://github.com/paveldudka/blurring)实现高斯模糊效果，在这里自己做下笔记。<br/>
@@ -11,8 +15,8 @@ title: Android截屏并对图片做高斯模糊处理
 
 先看下[我们公司的App-回家吃饭](http://www.jiashuangkuaizi.com/)高斯处理后的效果图
 
-![](/img/before_blur.png)
-![](/img/after_blur.png)
+![](/assets/before_blur.png)
+![](/assets/after_blur.png)
 
 ###截屏当前显示页并处理状态栏和标题栏是否显示
 
@@ -72,7 +76,7 @@ title: Android截屏并对图片做高斯模糊处理
         view.setBackground(new BitmapDrawable(getResources(), overlay));
     }
 
-    BlurUtil.java文件下的java高斯算法
+BlurUtil.java文件下的java高斯算法
 
     public static Bitmap doBlur(Bitmap sentBitmap, int radius, boolean canReuseInBitmap) {
         Bitmap bitmap;

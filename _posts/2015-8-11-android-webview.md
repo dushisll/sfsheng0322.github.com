@@ -1,6 +1,10 @@
 ---
 layout: post
+author: 孙福生
 title: WebView常用接口整理
+cover: "zzz"
+categories: Android
+tags: Technology
 ---
 
 WebView可以使得网页轻松的内嵌到app里，还可以直接跟js相互调用。<br/>
@@ -87,8 +91,8 @@ WebViewClient就是帮助WebView处理各种通知、请求事件的。<br/>
 
 优先使用缓存:
 
-webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+    webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
 
 不使用缓存:
 
-webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
+    webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);

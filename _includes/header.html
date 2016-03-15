@@ -1,35 +1,29 @@
-<header class="site-header">
-	<div class="branding">
-		{% if site.theme.gravatar %}
-		<a href="/resume/">
-			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme.gravatar }}?s=100" alt=""/>
-		</a>
-		{% elsif site.theme.avatar %}
-		<a href="/resume/">
-			<img class="avatar" src="/img/{{ site.theme.avatar }}" alt=""/>
-		</a>
-		{% endif %}
+<header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="{{ site.baseurl }}" class="logo">
+    	{% if site.logo %}
+      <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title_main }}">
+      {% else %}
+      <span>{{ site.title_main }}</span>
+      {% endif %}
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+    	<i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+      	{% for page in site.pages %}
+          {% if page.title and page.main_nav != false and page.title != 'Typography' %}
 
-		<h1 class="site-title" style="font-size: 1.2em; line-height: 1.5em; height: 1.5em; text-align: center" >
-			<a href="{{ site.baseurl }}/">{{ site.theme.home_title }}</a>
-		</h1>
-	</div>
-	<nav class="site-nav">
-		<ul>
+          <li class="nav-link">
+              <a href="{{ page.url | remove_first: '/' | prepend: site.baseurl }}">
+                  {{ page.title }}
+              </a>
+          </li>
 
-			<li>
-				<h1 class="page-link" style="font-size: 1.1em; margin-right: 0.4em; 
-				line-height: 1.5em; height: 1.5em; text-align: center" >
-					<a href="/about/">关于</a>
-				</h1>
-			</li>
-
-			<li>
-				<a href="https://github.com/sfsheng0322" title="GitHub: sfsheng0322" target="_blank" >
-					<img class="github" src="/img/icon_github.png" alt="" style=" margin-top: 0.6em;" />
-				</a>
-			</li>
-
-		</ul>
-	</nav>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
 </header>

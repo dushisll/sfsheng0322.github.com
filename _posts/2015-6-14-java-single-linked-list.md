@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Java语言下单向链表的操作
+author: 孙福生
+title: Java 单向链表的操作
+cover: "zzz"
+categories: 算法与数据结构
+tags: Java
 ---
 
 * 单向链表增删改查的操作
