@@ -14,7 +14,7 @@ tags: Util Mac
 
 ###以[《我的作品－Bingoworld》](http://sfsheng0322.github.io/2015/09/09/bingo.html)为例
 
-![](/assets/bingo.gif)
+<img src="/assets/bingo.gif" style="width: 50%;">
 
 ###1、Mac系统下通过bash连接Android手机
 

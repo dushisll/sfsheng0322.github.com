@@ -15,8 +15,12 @@ tags: Technology
 
 先看下[我们公司的App-回家吃饭](http://www.jiashuangkuaizi.com/)高斯处理后的效果图
 
-![](/assets/before_blur.png)
-![](/assets/after_blur.png)
+<table>
+    <tr>
+        <td><img src="/assets/before_blur.png" style="width: 80%;"></td>
+        <td><img src="/assets/after_blur.png" style="width: 80%;"></td>
+    </tr>
+</table>
 
 ###截屏当前显示页并处理状态栏和标题栏是否显示
 

@@ -10,8 +10,12 @@ tags: Technology
 在Android项目开发中我们经常会遇到设置时间的操作，根据要求设置我们需要的年、月、日、时、分、秒等信息，
 下面这个自定的WheelView同样是因为我们项目中的需要，经过修改后使用。项目中的屏幕截图如图一：
 
-![](/assets/android_wheelview_icon.png)图一
-![](/assets/android_shareview_icon.png)图二
+<table>
+    <tr>
+        <td><img src="/assets/android_wheelview_icon.png" style="width: 80%;"></td>
+        <td><img src="/assets/android_shareview_icon.png" style="width: 80%;"></td>
+    </tr>
+</table>
 
 这个View和它后面的透明遮挡是attach到相应的activity上去的，这样的好处不言而喻
 (我们分享的UI也是这样处理的如图二，原来会想到用PopupWindow，不过这样会麻烦些)。

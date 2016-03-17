@@ -13,8 +13,13 @@ tags: Technology
 
 效果图如下：
 
-![](/assets/android_take_choose_picture.png)
-![](/assets/android_take_choose_picture1.png)
+<table>
+    <tr>
+        <td><img src="/assets/android_take_choose_picture.png" style="width: 80%;"></td>
+        <td><img src="/assets/android_take_choose_picture1.png" style="width: 80%;"></td>
+    </tr>
+</table>
+
 
 有图有真相，下面是真相：
 

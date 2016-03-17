@@ -13,7 +13,7 @@ tags: Technology
 
 ### 首先给大家看的是Git常用命令速查表
 
-![](/assets/git_map.jpg) 
+<img src="/assets/git_map.jpg" style="width: 80%;">
 
 不用看上面的Git速查表，想必大家也都不陌生吧，是不是大牛！言归正传...
 
@@ -26,7 +26,7 @@ tags: Technology
 
 ###第一种功能分支，先看下图：
 
-![](/assets/git_branch_1.jpg) 
+<img src="/assets/git_branch_1.jpg" style="width: 80%;">
 
 我们的开发不是在master主分支上的，是在dev（develop）上，主分支上主要保存各版本稳定的代码，我们不希望把主分支弄坏，所以在dev分支上开发，每个版本的开发也可以从dev分支上打出小的功能（feature）分支，开发完每个feature分支后再合并到dev分支上。
 
@@ -61,7 +61,7 @@ tags: Technology
 
 ###第二种改Bug分支，先看下图：
 
-![](/assets/git_branch_2.jpg) 
+<img src="/assets/git_branch_2.jpg" style="width: 80%;">
 
 	#这种fixbug分支和dev分支一样，比如从dev分支创建fixbug-v0.2后并切换到fixbug-v0.2分支  
 	$ git checkout -b fixbug-v0.2 dev  

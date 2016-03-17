@@ -10,7 +10,7 @@ tags: Technology
 当Android 4.4 KitKat发布的时候，每个人都很兴奋看到新的半透明状态栏和导航栏，这确实提高了安卓系统的美感，
 我也是被很多这样的应用吸引，试着实现这样沉浸式的效果，看下效果图更直观。
 
-![](/assets/android_systembartint_icon.png)
+<img src="/assets/android_systembartint_icon.png" style="width: 50%;">
 
 完成这样的效果很简单，GitHub上已经实现对应的[库](https://github.com/jgilfelt/SystemBarTint)。
 
