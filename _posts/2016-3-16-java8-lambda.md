@@ -35,6 +35,7 @@ Lambda 表达式是在Java 8中开始支持的一种函数式推导语言，能�
 
 2、体验之前，先看一下Lambda的语法：
 
+	parameter -> expression
 	(parameters) -> expression
 	(parameters) -> statement
 	或者
@@ -45,7 +46,7 @@ Lambda 表达式是在Java 8中开始支持的一种函数式推导语言，能�
     	statment1;
 		statment2;
 		...
-		statmentN;
+		return statmentN;
 	}
 
 3、看完语法后，下面看看它逼格到底有多高：
