@@ -32,7 +32,7 @@ tags: Technology
 因为公司项目是不外泄的，具体可以参考：  
 <a href="http://sfsheng0322.github.io/%E9%A1%B9%E7%9B%AE/2015/09/09/bingo.html" target="_black">个人作品《BingoWorld》</a>  
 <a href="https://fir.im/bingoworld" target="_black">下载地址</a>  
-<a href="https://github.com/sfsheng0322/Bingo" target="_black">GitHub 开源地址</a>  
+<a href="https://github.com/sfsheng0322/Bingo" target="_black">开源地址</a>  
 
 ### 2、使用OkHttp网络库提升安全及稳定性
 
