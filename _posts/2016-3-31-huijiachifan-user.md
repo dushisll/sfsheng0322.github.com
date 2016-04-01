@@ -138,7 +138,7 @@ Gradle下，压缩资源、zip优化、混淆代码等控制方便，可以使�
     注意lint检查，每次发版前通过lint检查找出潜在的问题代码并修改
     修改工程的命名，使整个工程更加规范化
     继续调研插件化和热更新，同时使整个工程模块化
-    尝试使用新技术到生产环境中如RxAndroid、Retrofit、Drager2等
+    尝试使用新技术到生产环境中，如RxAndroid、Retrofit、Drager2等
 
 
 
