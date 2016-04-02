@@ -116,6 +116,7 @@ Gradle下，压缩资源、zip优化、混淆代码等控制方便，可以使�
     Universal Image Loader：使用最普遍的图片加载库
     MultiDex：解决App中方法数超过65535个的分包库
     Shape Image View：稳定不会引起内存泄漏的原型图片库，主要用于头像的显示
+    EventBus：线程间、页面间数据传递解耦利器
 
 ### 6、性能优化
 
