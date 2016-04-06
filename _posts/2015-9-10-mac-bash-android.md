@@ -12,11 +12,11 @@ tags: Util Mac
 3、通过Gifrecord软件将视频转化为Gif文件<br/>
 4、补充一些adb的操作命令<br/>
 
-###以[《我的作品－Bingoworld》](http://sfsheng0322.github.io/2015/09/09/bingo.html)为例
+### 以[《我的作品－Bingoworld》](http://sfsheng0322.github.io/2015/09/09/bingo.html)为例
 
 <img src="/assets/bingo.gif" style="width: 50%;">
 
-###1、Mac系统下通过bash连接Android手机
+### 1、Mac系统下通过bash连接Android手机
 
 1、Mac系统通过数据线连接Android手机
 
@@ -45,7 +45,7 @@ Manufacturer: Xiaomi<br/>
 * 终端执行CMD： source ~/.bash_profile
 * adb devices 已经连接上adnroid手机了
 
-###2、通过adb shell命令获得录制的视频
+### 2、通过adb shell命令获得录制的视频
 
 * 录制命令
 
@@ -69,7 +69,7 @@ adb shell screenrecord - -bit-rate 2000000 /sdcard/test.avi
 使用adb pull 即可把手机SD卡中视频获取到本地
 adb pull /sdcard/test.avi .
 
-###3、通过Gifrecord软件将视频转化为Gif文件
+### 3、通过Gifrecord软件将视频转化为Gif文件
 
 转GIF文件
 在Windows下有个不错的软件Free Video to GIF Converter可以把mp4转换成GIF。
@@ -77,7 +77,7 @@ adb pull /sdcard/test.avi .
 
 Mac上可以使用Gifrocket进行转换，经测试后mp4格式会有问题，最好用avi格式的视频转Gif。
 
-###4、补充一些adb的操作命令
+### 4、补充一些adb的操作命令
 
 * adb dervices 显示当前启动的仿真器装置序号
 * adb help 显示adb指令用法
