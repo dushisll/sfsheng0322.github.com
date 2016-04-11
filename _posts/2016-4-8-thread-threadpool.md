@@ -157,11 +157,12 @@ FutureTask 实现了 Runnable 和 Future，所以兼顾两者优点，既可以�
     FutureTask<String> task = new FutureTask<String>(callable);
 
     Thread t = new Thread(task);
-    t.start();
+    t.start(); // 启动线程
+    task.cancel(true); // 取消线程
     
 使用 FutureTask 的好处是 FutureTask 是为了弥补 Thread 的不足而设计的，它可以让程序员准确地知道线程什么时候执行完成并获得到线程执行完成后返回的结果。FutureTask 是一种可以取消的异步的计算任务，它的计算是通过 Callable 实现的，它等价于可以携带结果的 Runnable，并且有三个状态：等待、运行和完成。完成包括所有计算以任意的方式结束，包括正常结束、取消和异常。
 
-查看具体操作代码请参考 [个人学习项目DroidStudy](https://github.com/sfsheng0322/In-depthStudy)，感谢您的关注。
+查看具体操作代码请参考 [《个人学习项目DroidStudy》](https://github.com/sfsheng0322/In-depthStudy)，感谢您的关注。
 
 ## ● 多线程
 
@@ -243,11 +244,13 @@ Java运行时系统的线程调度算法是抢占式的。Java运行时系统支
 
 有些系统的线程调度采用时间片轮转调度策略。这种调度策略是从所有处于就绪状态的线程中选择优先级最高的线程分配一定的CPU时间运行。该时间过后再选择其他线程运行。只有当线程运行结束、放弃(yield)CPU或由于某种原因进入阻塞状态，低优先级的线程才有机会执行。如果有两个优先级相同的线程都在等待CPU，则调度程序以轮转的方式选择运行的线程。
 
-以上把这些技术点总结出来，后面我会把多线程这块的示例代码更新到 [个人学习项目DroidStudy](https://github.com/sfsheng0322/In-depthStudy)，感谢您的关注。
+以上把这些技术点总结出来，后面我会把多线程这块的示例代码更新到 [《个人学习项目DroidStudy》](https://github.com/sfsheng0322/In-depthStudy)，感谢您的关注。
 
 ## ● 线程池
 
-创建多线程不光麻烦而且相对影响系统性能，接下来让我看看使用线程池来操作多线程。
+创建多个线程不光麻烦而且相对影响系统性能，接下来让我看看使用线程池来操作多线程。我把自己的 [《个人学习项目DroidStudy》](https://github.com/sfsheng0322/In-depthStudy) 中线程池转成一个 gif 效果图，大家可以实际把玩下去感受线程池的原理，有兴趣的同学也可以先 star 下，我会在接下来的几个月把这个学习的Demo工程完善好。
+
+<img src="/assets/gifs/gif_thread_pool.gif" style="width: 50%;">
 
 #### 线程池的优点
 
@@ -344,7 +347,7 @@ Executor框架在Java 5中被引入，Executor 框架是一个根据一组执行
 
 Executors为Executor、ExecutorService、ScheduledExecutorService、ThreadFactory 和 Callable 类提供了一些工具方法。Executors 可以用于方便的创建线程池。
 
-查看具体操作代码请参考 [个人学习项目DroidStudy](https://github.com/sfsheng0322/In-depthStudy)，感谢您的关注。
+查看具体操作代码请参考 [《个人学习项目DroidStudy》](https://github.com/sfsheng0322/In-depthStudy)，感谢您的关注。
 
 
 
