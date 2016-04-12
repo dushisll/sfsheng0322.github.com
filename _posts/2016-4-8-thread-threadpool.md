@@ -30,7 +30,7 @@ tags: Technology
     }
     
     DemoThread t = new DemoThread();
-    t.run();
+    t.start();
   
 * 继承Thread类，覆盖run()方法。
 * 创建线程对象并用start()方法启动线程。
