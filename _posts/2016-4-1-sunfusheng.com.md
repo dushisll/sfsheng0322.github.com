@@ -3,7 +3,7 @@ layout: post
 author: 孙福生
 title: 依托于Github的个人博客自定义域名设置
 cover: "zzz"
-categories: 个人记录
+categories: 个人记录 工具
 tags: Technology
 ---
    

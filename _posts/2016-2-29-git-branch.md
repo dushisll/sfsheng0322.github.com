@@ -13,18 +13,18 @@ tags: Technology
 
 ### 首先给大家看的是Git常用命令速查表
 
-<img src="/assets/git_map.jpg" style="width: 80%;">
+<img src="/assets/git_map.jpg" style="width: 100%;">
 
 不用看上面的Git速查表，想必大家也都不陌生吧，是不是大牛！言归正传...
 
 
-###为什么要用到分支呢？
+### 为什么要用到分支呢？
 
 我先抛出我司的实际场景，然后你就会知道用Git实在太方便啦。  
 我们的线上版本需要维护，可能会出现意想不到的Bug，就需要发小版本进行补救，但我们还在开发新的版本啊，肯定不能在当前代码上修复Bug提交，而如果把上次的工程版本另外保存下来那非常麻烦，好，来了，就使用Git分支解决这个痛点。
 
 
-###第一种功能分支，先看下图：
+### 第一种功能分支，先看下图：
 
 <img src="/assets/git_branch_1.jpg" style="width: 80%;">
 
@@ -59,7 +59,7 @@ tags: Technology
 	$ git push --tags  
 
 
-###第二种改Bug分支，先看下图：
+### 第二种改Bug分支，先看下图：
 
 <img src="/assets/git_branch_2.jpg" style="width: 80%;">
 
@@ -77,7 +77,7 @@ tags: Technology
 	如果当前在dev分支上，我们要把dev分支上的代码合并到master分支上，需要切换到master分支上并执行
 	$ git merge --no-ff dev  相反亦然
 
-###清除 .git 或 .svn 的配置文件
+### 清除 .git 或 .svn 的配置文件
 
 	$ cd 到工程的根目录 
 

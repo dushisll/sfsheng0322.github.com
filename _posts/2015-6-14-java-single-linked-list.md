@@ -3,7 +3,7 @@ layout: post
 author: 孙福生
 title: Java 单向链表的操作
 cover: "zzz"
-categories: 算法与数据结构
+categories: Java 算法与数据结构
 tags: Java
 ---
 
