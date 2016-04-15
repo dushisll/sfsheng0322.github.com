@@ -4,27 +4,22 @@ title: "关于"
 permalink: /about/
 ---
 
-我的博客使用的是[Jekyll](http://jekyll.bootcss.com/)生成工具完成的。
+<img src="/assets/bingo_me.jpg" style="width: 50%;">
 
-感觉Jekyll棒棒哒！顺便在这里介绍下，亦是推荐哦～
+这就是自恋的我，2013年毕业，开始从事嵌入式开发，毕业后一直从事Android客户端开发。
 
-Jekyll是一个简单的免费的Blog生成工具，可以免费部署在Github上建立自己的网站博客，还可以绑定自己的域名。
+目前在北京工作，[回家吃饭](http://www.jiashuangkuaizi.com/)Android工程师，曾先后工作于威海卡尔电气和北京创新工场。
 
-是不是很酷？！是的！
+个人博客使用的是[Jekyll](http://jekyll.bootcss.com/)生成工具完成的，Jekyll是一个简单的免费的Blog生成工具，可以免费部署在Github上建立自己的网站博客，还可以绑定自己的域名。
 
-攻城狮应该具有极客精神！所以应该有自己的博客！！
+### 关注我吧
 
-简单 <br/>
-无需数据库、评论功能，不需要不断的更新版本，只用关心你的博客内容。
+个人邮箱：sfsheng0322@126.com
 
-静态 <br/>
-只用Markdown(或Textile)、Liquid、HTML & CSS 就可以构建可部署的静态网站。
+[GitHub主页](https://github.com/sfsheng0322)
 
-博客形态 <br/>
-自定义地址、分类、页面、博客内容，以及自定义的布局设计，都是系统中的一等公民。
+[简书主页](http://www.jianshu.com/users/88509e7e2ed1/latest_articles)
 
-最重要的事只需几分钟就能让网站跑起来！！！
+[个人博客](http://sunfusheng.com/)
 
-你还在犹豫神马！！！
-
-呵呵～呵呵～
+[新浪微博](http://weibo.com/u/3852192525)
