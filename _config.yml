@@ -80,7 +80,7 @@ social:
   - name: Weibo
     icon: weibo
     username: 孙福生微博
-    url: http://weibo.com/3852192525/profile?topnav=1&wvr=6&is_all=1
+    url: http://weibo.com/u/3852192525
     desc: Follow me on Weibo
     share: false
 
