@@ -1,7 +1,7 @@
 ---
 layout: post
 author: 孙福生
-title: Android开源之StickyHeaderListView 标题渐变、吸附悬停、筛选分类、动态头部
+title: Android 开源之StickyHeaderListView 标题渐变、吸附悬停、筛选分类、动态头部
 cover: "zzz"
 categories: Android
 tags: Technology
@@ -15,11 +15,14 @@ tags: Technology
 五、支持标题栏背景颜色渐变、字体颜色渐变。  
 六、数据不足一屏动态添加空数据占位。  
 七、数据为空时，ListView加载暂无数据视图。  
-八、思路清晰、界面优美，添加ripple点击效果。
+八、思路清晰、界面优美，添加ripple点击效果。  
+九、支持下拉刷新和上拉加载更多功能。
 
 ### 动态效果图：
 
 <img src="/assets/gifs/stickyheader.gif" style="width: 50%;"/>
+
+<img src="/assets/gifs/stickyheader2.gif" style="width: 50%;"/>
 
 ### [GitHub开源地址](https://github.com/sfsheng0322/StickyHeaderListView)
 
