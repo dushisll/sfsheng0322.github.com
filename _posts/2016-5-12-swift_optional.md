@@ -119,7 +119,7 @@ if let 解包可选型
     name = nil
     print(name!.uppercaseString)
 
-可选型的强大之处可见一斑，以后的开发必然会经常用到的。
+Swift 可选型的强大之处可见一斑，以后的开发必然会经常用到的。
 
 
 
