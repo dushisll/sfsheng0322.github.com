@@ -81,7 +81,7 @@ tags: Technology
     // 删除所有元素
     arr.removeAll()
 
-    // 修改指定元素或制定范围的数据
+    // 修改指定元素或指定范围的数据
     arr[4] = "MAC"
     arr[2..<arr.count] = ["Mac"]
     print(arr)
