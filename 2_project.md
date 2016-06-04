@@ -42,4 +42,13 @@ StickyHeaderListView 是基于实际需求做出的灵活可定制的UI功能，
 
 [APK下载地址](http://fir.im/StickyListView)
 
+## 4、MarqueeView
+
+俗名：垂直跑马灯  
+学名：垂直翻页公告
+
+[Github项目主页](https://github.com/sfsheng0322/MarqueeView)
+
+[APK下载地址](http://fir.im/MarqueeView)
+
 
