@@ -62,6 +62,8 @@ tags: Technology
     String notice = "心中有阳光，脚底有力量！心中有阳光，脚底有力量！心中有阳光，脚底有力量！";
     marqueeView.startWithText(notice);
 
+源码很简单，如果想看源码可以访问[GitHub](https://github.com/sfsheng0322/MarqueeView)
+
 具体实现思路参考[diygreen简书文章](http://www.jianshu.com/p/c5ef2803c823)
 
 第一次尝试将开源库上传到jcenter上，具体操作参考鸿洋的[文章](http://blog.csdn.net/lmj623565791/article/details/51148825#rd)
