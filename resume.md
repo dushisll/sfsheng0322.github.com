@@ -4,9 +4,9 @@ title: " "
 permalink: /resume/
 ---
 
-# 个人简历 
+<h1 style="text-align:center;">个人简历</h1>
 
-***
+<br/>
 
 ## 孙福生
 
