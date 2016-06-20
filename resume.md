@@ -30,7 +30,7 @@ permalink: /resume/
 
 ## 专业技能
 
-● 从自学安卓开发起，三年Android开发经验  
+● 从自学安卓开发起，三年多Android开发经验  
 ● GitHub上开源 [StickyHeaderListView](https://github.com/sfsheng0322/StickyHeaderListView) 项目，模仿百度外卖首页同时用于回家吃饭首页  
 ● GitHub上开源 [MarqueeView](https://github.com/sfsheng0322/MarqueeView) 自定义View，用于循环显示垂直翻页公告  
 ● GitHub上开源 [Bingo](https://github.com/sfsheng0322/Bingo) 项目，用于收集和阅读优秀的技术文章  
@@ -57,7 +57,7 @@ permalink: /resume/
 为忙碌的上班族，不愿下厨的年轻人提供安心可口的家常菜，解决对健康饮食的需求与富余生产力的对接问题，创造一种全新的生活方式。
 
 #### 职责：   
-1、首页全新改版，优化定位。  
+1、首页全新改版（模仿百度外卖首页），优化定位功能。  
 2、厨房详情页重构，分拆独立的View。  
 3、重写购物车，自定义ShoppingView。  
 4、更换网络库为OkHttp3.2，优化图片的加载与缓存。  
@@ -84,8 +84,7 @@ permalink: /resume/
 ● 具有IM聊天功能，文字、表情、语音、图片和地点等。  
 ● 特色功能具有隐号通话能力。  
 ● 还拥有贷款计算器和税费计算器功能。  
-● 房屋信息可以分享可以举报。  
-● 重要的是有比较漂亮的UI界面。  
+● 房屋信息可以分享可以举报。    
 
 #### 职责：   
 1、第一版时的注册、登录还有引导页的全部功能。  
