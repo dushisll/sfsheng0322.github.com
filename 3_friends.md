@@ -24,8 +24,6 @@ permalink: /friends/
 
 [张涛](http://kymjs.com/)
 
-[杨辉的个人博客](http://yanghui.name/)
-
 ### 推荐
 
 [胡凯](http://hukai.me/) android 性能优化

@@ -3,7 +3,7 @@ layout: post
 author: 孙福生
 title: Android 开源之StickyHeaderListView 标题渐变、吸附悬停、筛选分类、动态头部
 cover: "zzz"
-categories: Android
+categories: 项目
 tags: Technology
 ---
 

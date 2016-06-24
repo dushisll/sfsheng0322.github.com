@@ -3,7 +3,7 @@ layout: post
 author: 孙福生
 title: 线程、多线程与线程池总结
 cover: "zzz"
-categories: Android Java 线程
+categories: Java
 tags: Technology
 ---
 

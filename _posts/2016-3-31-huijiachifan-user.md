@@ -3,7 +3,7 @@ layout: post
 author: 孙福生
 title: 回家吃饭Android客户端整理后总结
 cover: "zzz"
-categories: Android 工作
+categories: 工作
 tags: Technology
 ---
 

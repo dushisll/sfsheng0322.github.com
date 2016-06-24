@@ -3,7 +3,7 @@ layout: post
 author: 孙福生
 title: 自定义View之垂直翻页公告
 cover: "zzz"
-categories: Android
+categories: 项目
 tags: Technology
 ---
 
