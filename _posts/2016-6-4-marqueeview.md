@@ -22,7 +22,7 @@ tags: Technology
 
 #### Gradle:
 
-    compile 'com.sunfusheng:marqueeview:1.0.0'
+    compile 'com.sunfusheng:marqueeview:1.1.0'
 
 #### 属性
 
@@ -33,6 +33,7 @@ tags: Technology
 | mvTextSize         | 文字大小           |
 | mvTextColor         | 文字颜色          |
 | mvGravity         | 文字位置:left、center、right          |
+| mvSingleLine         | 单行设置          |
 
 #### XML
 
@@ -43,7 +44,8 @@ tags: Technology
         app:mvAnimDuration="1000"
         app:mvInterval="3000"
         app:mvTextColor="@color/white"
-        app:mvTextSize="14sp"/>
+        app:mvTextSize="14sp"
+        app:mvSingleLine="true"/>
 
 #### 设置列表数据
 
