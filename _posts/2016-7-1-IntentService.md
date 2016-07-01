@@ -109,7 +109,7 @@ IntentService 是继承自 Service 并处理异步请求的一个类，在 Inten
     Intent startIntent = new Intent(getActivity(), MyIntentService.class);
     getActivity().startService(startIntent);
 
-#### [GitHub开源地址](https://github.com/sfsheng0322/In-depthStudy)
+#### [具体参考GitHub上项目](https://github.com/sfsheng0322/In-depthStudy)
 
 ## Gif图演示
 
@@ -140,7 +140,7 @@ IntentService 是继承自 Service 并处理异步请求的一个类，在 Inten
     @Override
     public void onCreate() {
         super.onCreate();
-        // HandlerThread 继承自 Thread，内部封装了 Looper。
+        // HandlerThread 继承自 Thread，内部封装了 Looper，在这里新建线程并启动，所以启动 IntentService 不需要新建线程。
         HandlerThread thread = new HandlerThread("IntentService[" + mName + "]");
         thread.start();
 
@@ -194,5 +194,5 @@ IntentService 中使用的 Handler、Looper、MessageQueue 机制把消息发送
         mServiceLooper.quit();
     }
 
-
+#### [具体参考GitHub上项目](https://github.com/sfsheng0322/In-depthStudy)
 
