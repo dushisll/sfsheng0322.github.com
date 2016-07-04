@@ -114,19 +114,19 @@ IntentService 是继承自 Service 并处理异步请求的一个类，在 Inten
 ## Gif图演示
 
 
-点击［启动 IntentService］，服务运行，线程计数完成后，服务和线程都结束。
+1、点击［启动 IntentService］，服务运行，线程计数完成后，服务和线程都结束。
 
 <img src="/assets/gifs/gif_is1.gif" style="width: 50%;"/>
 
-点击［启动 IntentService］，服务运行，线程计数完成前，点击［停止 IntentService］，服务结束，线程计数完成后线程结束。
+2、点击［启动 IntentService］，服务运行，线程计数完成前，点击［停止 IntentService］，服务结束，线程计数完成后线程结束。
 
 <img src="/assets/gifs/gif_is2.gif" style="width: 50%;"/>
 
-点击两次［启动 IntentService］，服务运行，第一次线程计数完成后，进行第二次线程计数，两次完成后，服务和线程都结束。
+3、点击两次［启动 IntentService］，服务运行，第一次线程计数完成后，进行第二次线程计数，两次完成后，服务和线程都结束。
 
 <img src="/assets/gifs/gif_is3.gif" style="width: 50%;"/>
 
-点击两次［启动 IntentService］，服务运行，在第一次线程计数完成前，点击［停止 IntentService］，服务结束，第一次线程计数结束后不进行第二次计数。
+4、点击两次［启动 IntentService］，服务运行，在第一次线程计数完成前，点击［停止 IntentService］，服务结束，第一次线程计数结束后不进行第二次计数。
 
 <img src="/assets/gifs/gif_is4.gif" style="width: 50%;"/>
 
