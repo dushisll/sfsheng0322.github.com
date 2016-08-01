@@ -7,7 +7,7 @@ categories: Android
 tags: Technology
 ---
 
-实际项目开发中你可能需要用到分享的功能，像下面这样的视觉图
+分享功能在实际项目开发中经常用到的，有可能是在屏幕中间弹出的 Dialog 对话框，也有可能是从屏幕下方滑上来的视图。本文是自定义从屏幕下方滑上来的分享控件，将 ShareView add 到 DecorView 上，但是在带 NavigationBar 导航条的手机上出现适配问题，下面是我碰到的问题及解决方法。
 
 <img src="/assets/android/ok_share_view.png" style="width: 30%;"/>
 
@@ -74,7 +74,7 @@ tags: Technology
 
 so, that`s the problem !
 
-上面这张图是在 Google Nexus 手机上截的图，这么一来这个自定义 ShareView 在所有屏幕底下带有 NavigationBar 的手机上
+上面这张图是在华为 Nexus 手机上截的图，这么一来这个自定义 ShareView 在所有屏幕底下带有 NavigationBar 的手机上
 都会有问题，经过测试，确实是这样的，虽然对于整体功能没有太大影响，但是仍不可以忍受。
 
 我们使用的大多数 Android 手机上的Home键，返回键以及menu键都是实体触摸感应按键，但是，一些手机生厂商包括 Google 在内它们并没有实体按键或触摸感应按键，取而代之的是在屏幕的下方加上 NavigationBar 导航条，我是很吐糟这种设计的，虽然这使得手机外观的设计更加简约。
