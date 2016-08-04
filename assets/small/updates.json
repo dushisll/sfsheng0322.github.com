@@ -1,5 +1,5 @@
 {
-  "manifest_code": 1,
+  "manifest_code": 0,
   "updates_code": 1,
   "additions_code": 0,
   "manifest": {
@@ -33,15 +33,15 @@
   "updates": [
     {
       "pkg": "com.sunfusheng.small.app.main",
-      "url": "http://sunfusheng.com/assets/small/libcom_sunfusheng_small_app_main.so"
+      "url": "http://sunfusheng.com/assets/small/updates/libcom_sunfusheng_small_app_main.so"
     },
     {
       "pkg": "com.sunfusheng.small.app.phone",
-      "url": "http://sunfusheng.com/assets/small/libcom_sunfusheng_small_app_phone.so"
+      "url": "http://sunfusheng.com/assets/small/updates/libcom_sunfusheng_small_app_phone.so"
     },
     {
       "pkg": "com.sunfusheng.small.app.weather",
-      "url": "http://sunfusheng.com/assets/small/libcom_sunfusheng_small_app_weather.so"
+      "url": "http://sunfusheng.com/assets/small/updates/libcom_sunfusheng_small_app_weather.so"
     }
   ],
   "additions": []
