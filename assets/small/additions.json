@@ -1,7 +1,7 @@
 {
-  "manifest_code": 1,
-  "updates_code": 1,
-  "additions_code": 1,
+  "manifest_code": 2,
+  "updates_code": 2,
+  "additions_code": 2,
   "manifest": {
     "version": "1.0.0",
     "bundles": [
