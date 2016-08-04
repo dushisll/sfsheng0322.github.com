@@ -32,6 +32,10 @@
   },
   "updates": [
     {
+      "pkg": "com.sunfusheng.small.app.main",
+      "url": "http://sunfusheng.com/assets/small/libcom_sunfusheng_small_app_main.so"
+    },
+    {
       "pkg": "com.sunfusheng.small.app.phone",
       "url": "http://sunfusheng.com/assets/small/libcom_sunfusheng_small_app_phone.so"
     },
