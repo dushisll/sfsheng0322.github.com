@@ -1,7 +1,7 @@
 {
   "manifest_code": 1,
   "updates_code": 1,
-  "additions_code": 0,
+  "additions_code": 1,
   "manifest": {
     "version": "1.0.0",
     "bundles": [
@@ -33,12 +33,17 @@
   "updates": [
     {
       "pkg": "com.sunfusheng.small.app.phone",
-      "url": "http://sunfusheng.com/assets/small/libcom_sunfusheng_small_app_phone.so"
+      "url": "https://github.com/sfsheng0322/DroidSmall/blob/master/small/libcom_sunfusheng_small_app_phone.so"
     },
     {
       "pkg": "com.sunfusheng.small.app.weather",
-      "url": "http://sunfusheng.com/assets/small/libcom_sunfusheng_small_app_weather.so"
+      "url": "https://github.com/sfsheng0322/DroidSmall/blob/master/small/libcom_sunfusheng_small_app_weather.so"
     }
   ],
-  "additions": []
+  "additions": [
+    {
+      "pkg": "com.sunfusheng.small.app.phone",
+      "url": "https://github.com/sfsheng0322/DroidSmall/blob/master/small/libcom_sunfusheng_small_app_phone.so"
+    }
+  ]
 }
