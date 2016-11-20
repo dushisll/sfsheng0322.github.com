@@ -6,11 +6,11 @@ permalink: /about/
 
 <img src="/assets/about_me.png" style="width: 50%;">
 
-我是孙福生，二零一三年毕业，开始从事嵌入式开发，毕业后一直从事Android客户端开发。
+我是孙福生，二零一三年毕业，毕业后一直从事Android客户端开发。
 
-目前在北京工作，[回家吃饭](http://www.jiashuangkuaizi.com/)Android工程师，曾工作于北京创新工场。
+目前在北京[回家吃饭](http://www.jiashuangkuaizi.com/)工作，曾工作于北京创新工场。
 
-个人博客使用的是[Jekyll](http://jekyll.bootcss.com/)生成工具完成的，Jekyll是一个简单的免费的Blog生成工具，可以免费部署在Github上建立自己的网站博客，还可以绑定自己的域名。
+[个人博客](http://sunfusheng.com/)使用[Jekyll](http://jekyll.bootcss.com/)搭建，Jekyll是一个简单的免费的Blog生成工具，可以免费部署在Github上建立自己的网站博客，还可以绑定自己的域名。
 
 
 ### 个人公众号
