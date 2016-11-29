@@ -11,7 +11,7 @@ permalink: /resume/
 ## 孙福生
 
 | :--- | :--- |
-| Phone          | 186 0060 4601          |
+| Phone          | 156 9821 9533          |
 | Email          | sfsheng0322@126.com          |
 | GitHub          | [https://github.com/sfsheng0322](https://github.com/sfsheng0322)          |
 | Blog          | [sunfusheng.com](http://sunfusheng.com/)          |
@@ -21,9 +21,9 @@ permalink: /resume/
 ## 个人经历
 
 | :--- | :--- | :--- |
-| 2015/11 ~ 至今 | [回家吃饭](http://www.jiashuangkuaizi.com/) | Android 开发 |
-| 2014/10 ~ 2015/11 | [创新工场－易遨中国](http://www.eallcn.com/) | Android 开发 |
-| 2013/02 ~ 2014/09 | [威海－卡尔电气](http://www.kaer.cn/) | Android 开发 |
+| 2015/11 ~ 至今 | [回家吃饭](http://www.jiashuangkuaizi.com/) | 高级Android工程师 |
+| 2014/10 ~ 2015/11 | [创新工场](http://www.eallcn.com/) | Android工程师 |
+| 2013/02 ~ 2014/09 | [卡尔电气](http://www.kaer.cn/) | Android工程师(独立开发) |
 | 2009/09 ~ 2013/06 | 本科 | 自动化 |
 
 <br/>
@@ -66,115 +66,48 @@ permalink: /resume/
 
 <br/>
 
-### 【美丽屋】【有个家】
+### 2014年10月至2015年11月，北京市，创新工场，Android工程师
 
-| 工作时间 | 公司名称 | 项目名称 |
-| :--- | :--- | :--- |
-| 2014/10 ~ 2015/11 | 天津易遨在线科技有限公司 | [美丽屋](http://bj.meiliwu.com/)和[有个家](http://bj.yougejia.com/) |
+[【美丽屋】](http://bj.meiliwu.com/)是一款随时查询、约看房源、在线订房、签约，让租房跟购物一样简单的手机应用。该应用可以根据城市或者地图搜索二手房、待出租房，浏览房屋相关信息，具有IM聊天功能可以与卖房者、租房者沟通，同时该应用还拥有贷款计算器和税费计算器功能。
 
-#### 项目简介：  
-“美丽屋”是一款随时查询、约看房源、在线订房、签约，让租房跟购物一样简单的APP，由创新工场－易遨中国自主研发。<br/>
-“有个家”是一款提供全新的买房、卖房体验的APP，由创新工场－易遨中国自主研发。
-
-#### 技术栈：  
-● 可以提交买房信息和卖房信息。  
-● 二手房、新房和租房列表和房屋详情。  
-● 根据城市搜房、地图搜二手房和分类搜房。  
-● 纪录浏览历史，可以收藏房屋。  
-● 具有IM聊天功能，文字、表情、语音、图片和地点等。  
-● 特色功能具有隐号通话能力。  
-● 还拥有贷款计算器和税费计算器功能。  
-● 房屋信息可以分享可以举报。    
-
-#### 职责：   
-1、第一版时的注册、登录还有引导页的全部功能。  
-2、列表抽象出BaseListAdpater和BasePullToRefreshActivity。  
-3、租房详情页的实现，并自定义大量的View。  
-4、税费计算器和贷款计算器功能。  
-5、完善IM的通知处理，完善IM相关功能。  
-6、地图查找搜索房源。  
+在此期间我主要完成该应用的注册、登录和引导页的功能，实现租房详情页，使用百度地图实现地图查找房源功能，实现税费计算器和贷款计算器功能等。
 
 <br/>
 
-### 【世界通】【蓝牙智能固话】
+###  2013年2月至2014年9月，威海市，卡尔电气，Android工程师(独立开发)
 
-| 工作时间 | 公司名称 | 项目名称 |
-| :--- | :--- | :--- |
-| 2013/02 ~ 2014/09 | 山东卡尔电气股份有限公司 | [世界通](http://www.kaer.cn/pro-836.html)和[蓝牙智能固话](http://www.kaer.cn/pro-834.html) |
-
-#### 项目简介：  
-蓝牙智能固话是独立开发项目，是卡尔电气自主开发的基于GSM/TD网络或有线电话网络的具有蓝牙功能的智能固定电话机。用户可使用蓝牙手机通过蓝牙功能控制带有蓝牙模块的智能固话进行通讯录管理、通话记录、拨打电话等功能，同时话机也可控制手机拨打电话、挂断电话，操作简单，绿色健康。
-
-该项目是和终端话机配合使用的一款企业通讯录软件，具体功能是客户端通过蓝牙连接话机，相应的控制指令也是通过蓝牙连接互传包括通话记录；客户端通过WebService接口与服务器交互获取更新通讯录相关信息，再通过Http多线程下载数据库数据；该项目同时将本机的电话号码簿信息读取出来显示；客户端支持单模PSTN、GSM或双模PSTN和GSM界面布局和操作。
-
-#### 技术栈：  
-● Android下蓝牙的连接、控制、传输数据。  
-● 通过WebService接口与服务器交互，获取相关信息。  
-● 使用SQlite数据库处理企业通讯录数据。  
-● 操作手机电话号码簿与显示。  
-
-#### 职责：独立开发
-
-##### 项目简介：  
-世界通是我自学安卓开发后第一个独立开发项目，该项目主要功能是实现带穿透功能(P2P)的实时视频监控功能。具体功能为实时视频的查看，视频分辨率可以选择（高清、均衡、流畅）；远程录像回放，播放终端设备上的历史视频；拥有抓拍和录像功能；二维码扫描添加设备；接收服务器推送的终端报警消息。	
-
-#### 技术栈：  
-● 应用四个Tab界面的搭建，注册登陆等基本功能。  
-● 使用 AsyncTask 下载图片并显示。  
-● ListView Item 的复用和优化。  
-● 使用 ZMQ 网络通讯（ZMQ 在 Socket 之上做了一层封装）。  
-● 通过 JNI 调用H264解码库解析终端设备发送的视频和音频数据流。  
-
-#### 职责：独立开发
+[【视界通】](http://www.kaer.cn/pro-836.html)是以点对点信息服务为基础(P2P)的视频监控项目。具体功能为实时视频查看、历史录像和远程录像回放、云台设备控制、语音对讲和视频抓拍等功能。主要使用ZMQ网络通信技术传输音视频数据，使用JNI调用C语言实现的H264解码库解析终端设备发送的视频和音频数据。
+ 
+[【蓝牙智能固话】](http://www.kaer.cn/pro-834.html)是卡尔电气自主研发的基于4G网络或有线电话网络具有蓝牙通话功能的智能电话机。用户可以通过手机蓝牙控制带有蓝牙模块的智能电话机拨打企业通讯录中的号码、接听来电，查看通话记录等功能，同时话机也可控制手机拨打电话、挂断电话，操作简单方便公司集中管理。主要使用的技术包括：Android下蓝牙的连接、重连和数据传输、通过WebService与服务器交互以获取企业通讯录数据、使用SQlite数据库保存企业通讯录数据等。
 
 <br/>
 
-## 个人项目
+## 个人开源项目
+***
 
-#### 【StickyHeaderListView】
+#### 1、【StickyHeaderListView】
 
-StickyHeaderListView 是基于实际需求做出的灵活可定制的UI功能，具体实现功能如下：  
-一、支持无限循环的广告位。  
-二、高度可动态配置的Header2和Header3（使用GridView实现）。  
-三、主要功能：分类、排序和筛选布局滑动到顶部后吸附、悬停。  
-四、自定义FilterView筛选控件，支持动画显示与动画隐藏。  
-五、支持标题栏背景颜色渐变、字体颜色渐变。  
-六、数据不足一屏动态添加空数据占位。  
-七、数据为空时，ListView加载暂无数据视图。  
-八、思路清晰、界面优美，添加ripple点击效果。  
+StickyHeaderListView是基于实际需求做出的灵活可变的UI视图，具体实现了如下功能：  
+一、支持下拉刷新和上拉加载更多功能。  
+二、支持无限循环的广告位。  
+三、使用GridView实现可动态配置的频道位、运营位和分割线。  
+四、自定义FilterView实现筛选功能，同时支持动画显示与动画隐藏。  
+五、支持FilterView滑动到顶部后吸附悬浮。  
+六、支持标题栏背景颜色渐变和字体颜色渐变。  
+七、实现了数据不足一屏动态添加空数据占位。  
+八、数据为空时ListView多type加载暂无数据视图。  
 
-[Github项目主页](https://github.com/sfsheng0322/StickyHeaderListView)
+[Github地址：https://github.com/sfsheng0322/StickyHeaderListView](https://github.com/sfsheng0322/StickyHeaderListView)
 
-[APK下载地址](http://fir.im/StickyListView)
+[APK下载地址：http://fir.im/StickyListView](http://fir.im/StickyListView)
 
-#### 【MarqueeView】
+#### 2、【MarqueeView】
 
-俗名：垂直跑马灯  
-学名：垂直翻页公告
+垂直翻页公告，可以将一大段文字根据屏幕显示的宽度截取，不断滚动显示，该项目也可以叫做垂直的跑马灯。
 
-[Github项目主页](https://github.com/sfsheng0322/MarqueeView)
+[Github地址：https://github.com/sfsheng0322/MarqueeView](https://github.com/sfsheng0322/MarqueeView)
 
-[APK下载地址](http://fir.im/MarqueeView)
-
-#### 【Bingo】
-
-Bingo是一款IT阅读学习类的开源软件，在不久的将来会拥有丰富的学习内容，推荐您也来用用来看看，在这里您也可以发布好的干货链接文章。
-
-[Github项目主页](https://github.com/sfsheng0322/Bingo)
-
-[APK下载地址](http://fir.im/Bingo)
-
-#### 【图灵机器人】
-
-本示例使用图灵机器人的接口，完成问答的聊天操作。主要为了学习下面的技术：  
-[RetroLambda](https://github.com/evant/gradle-retrolambda)  
-[RxAndroid](https://github.com/ReactiveX/RxAndroid)  
-[Retrofit](https://github.com/square/retrofit)
-
-[Github项目主页](https://github.com/sfsheng0322/Tuling)
-
-[APK下载地址](http://fir.im/turing)
-
+[APK下载地址：http://fir.im/MarqueeView](http://fir.im/MarqueeView)
 
 
 
