@@ -16,7 +16,7 @@ tags: Java
 
 单向链表（单链表）是链表的一种，其特点是链表的链接方向是单向的，对链表的访问要通过顺序从头部开始读取，链表是使用指针进行构造的列表，又称为结点列表。因为链表是由一个个结点组装起来的，其中每个结点都有指针成员变量指列表中的下一个结点，由head指针指向第一个成为表头的结点而终止于最后一个指向nuLL的指针。
 
-####首先定义一个简单的Person类
+#### 首先定义一个简单的Person类
 里面仅仅包含两个元素姓名和年龄
 
 ***
@@ -54,7 +54,7 @@ tags: Java
 	}
 
 
-####接下来构造PersonNode节点
+#### 接下来构造PersonNode节点
 PersonNode节点拥有一个Person对象和PersonNode节点的指针
 
 ***
@@ -87,7 +87,7 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 	}
 
 
-####增加节点
+#### 增加节点
 新添加的节点指向头结点
 
 ***
@@ -100,7 +100,7 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 	    size++;
 	}
 
-####删除节点
+#### 删除节点
 
 ***
 	public void deleteNode(String personName) {
@@ -148,7 +148,7 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 	    }
 	}
 	
-####修改人名
+#### 修改人名
 
 ***
 	public void modifyPersonName(String oldName, String newName) {
@@ -162,7 +162,7 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 		p.setName(newName);
 	}
 	
-####修改年龄
+#### 修改年龄
 
 ***
 	public void modifyPersonAge(String personName, int age) {
@@ -179,7 +179,7 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 		p.setAge(age);
 	}
 	
-####根据人名搜索这个人的信息
+#### 根据人名搜索这个人的信息
 
 ***
 	public Person searchPerson(String personName) {
@@ -191,7 +191,7 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 		return null;
 	}
 	
-####根据人名搜索这个人的节点
+#### 根据人名搜索这个人的节点
 
 ***
 	public PersonNode searchNode(String personName) {
@@ -203,7 +203,7 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 		return null;
 	}
 	
-####链表中是否包含该名字的节点
+#### 链表中是否包含该名字的节点
 
 ***
 	public boolean contains(String personName) {
@@ -217,14 +217,14 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 		return false;
 	}
 	
-####是否为空
+#### 是否为空
 
 ***
 	public boolean isEmpty() {
 		return size == 0;
 	}
 	
-####打印所有节点
+#### 打印所有节点
 
 ***
 	public void printAllNode() {
@@ -235,7 +235,7 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 		}
 	}
 	
-####链表反转
+#### 链表反转
 
 ***
 	public PersonNode reverse() {
@@ -256,7 +256,7 @@ PersonNode节点拥有一个Person对象和PersonNode节点的指针
 		return head;
 	}
 
-####判断链表是否为环链表
+#### 判断链表是否为环链表
 两个指针slow，fast都从头开始遍历单链表，slow每次向前走1步，fast每次向前走2步，如果fast碰到了null，说明环不存在；如果fast碰到本应在身后的slow说明环存在。
 
 ***

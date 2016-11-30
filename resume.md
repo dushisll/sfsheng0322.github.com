@@ -14,7 +14,7 @@ permalink: /resume/
 | Phone          | 156 9821 9533          |
 | Email          | sfsheng0322@126.com          |
 | GitHub          | [https://github.com/sfsheng0322](https://github.com/sfsheng0322)          |
-| Blog          | [sunfusheng.com](http://sunfusheng.com/)          |
+| Blog          | [http://sunfusheng.com](http://sunfusheng.com/)          |
 
 <br/>
 
