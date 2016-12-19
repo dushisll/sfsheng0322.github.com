@@ -8,7 +8,7 @@ permalink: /about/
 
 我是孙福生，二零一三年毕业，毕业后一直从事Android客户端开发。
 
-目前在北京[回家吃饭](http://www.jiashuangkuaizi.com/)工作，曾工作于北京创新工场。
+目前就职于360，曾工作于创新工场。
 
 [个人博客](http://sunfusheng.com/)使用[Jekyll](http://jekyll.bootcss.com/)搭建，Jekyll是一个简单的免费的Blog生成工具，可以部署在Github上来建立自己的博客，还可以绑定自己的域名。
 

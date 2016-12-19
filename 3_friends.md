@@ -40,6 +40,8 @@ permalink: /friends/
 
 [大侠咕咚](http://gudong.name/)
 
+[DIY-green](http://diy-green.github.io/)
+
 [Drakeet](http://drakeet.me/)  
 
 [五道口宅男](http://hujiaweibujidao.github.io/) 
