@@ -51,4 +51,12 @@ StickyHeaderListView 是基于实际需求做出的灵活可定制的UI功能，
 
 [APK下载地址](http://fir.im/MarqueeView)
 
+## 5、RxGank
+
+干货集中营Android客户端
+
+[Github项目主页](https://github.com/sfsheng0322/RxGank)
+
+[APK下载地址](http://fir.im/RxGank)
+
 
