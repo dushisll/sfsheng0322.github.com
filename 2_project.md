@@ -11,20 +11,22 @@ permalink: /project/
 
 Bingo是一款IT阅读学习类的开源软件，在不久的将来会拥有丰富的学习内容，推荐您也来用用来看看，在这里您也可以发布好的干货链接文章。
 
-[Github项目主页](https://github.com/sfsheng0322/Bingo)
+[Github地址: https://github.com/sfsheng0322/Bingo](https://github.com/sfsheng0322/Bingo)
 
-[APK下载地址](http://fir.im/Bingo)
+[APK下载地址: http://fir.im/Bingo](http://fir.im/Bingo)
 
-## 2、图灵机器人
+## 2、Tuling
+
+图灵机器人
 
 本示例使用图灵机器人的接口，完成问答的聊天操作。主要为了学习下面的技术：  
 [RetroLambda](https://github.com/evant/gradle-retrolambda)  
 [RxAndroid](https://github.com/ReactiveX/RxAndroid)  
 [Retrofit](https://github.com/square/retrofit)
 
-[Github项目主页](https://github.com/sfsheng0322/Tuling)
+[Github地址: https://github.com/sfsheng0322/Tuling](https://github.com/sfsheng0322/Tuling)
 
-[APK下载地址](http://fir.im/turing)
+[APK下载地址: http://fir.im/turing](http://fir.im/turing)
 
 ## 3、StickyHeaderListView
 
@@ -38,25 +40,25 @@ StickyHeaderListView 是基于实际需求做出的灵活可定制的UI功能，
 七、数据为空时，ListView加载暂无数据视图。  
 八、思路清晰、界面优美，添加ripple点击效果。  
 
-[Github项目主页](https://github.com/sfsheng0322/StickyHeaderListView)
+[Github地址: https://github.com/sfsheng0322/StickyHeaderListView](https://github.com/sfsheng0322/StickyHeaderListView)
 
-[APK下载地址](http://fir.im/StickyListView)
+[APK下载地址: http://fir.im/StickyListView](http://fir.im/StickyListView)
 
 ## 4、MarqueeView
 
 俗名：垂直跑马灯  
 学名：垂直翻页公告
 
-[Github项目主页](https://github.com/sfsheng0322/MarqueeView)
+[Github地址: https://github.com/sfsheng0322/MarqueeView](https://github.com/sfsheng0322/MarqueeView)
 
-[APK下载地址](http://fir.im/MarqueeView)
+[APK下载地址: http://fir.im/MarqueeView](http://fir.im/MarqueeView)
 
 ## 5、RxGank
 
 干货集中营Android客户端
 
-[Github项目主页](https://github.com/sfsheng0322/RxGank)
+[Github地址: https://github.com/sfsheng0322/RxGank](https://github.com/sfsheng0322/RxGank)
 
-[APK下载地址](http://fir.im/RxGank)
+[APK下载地址: http://fir.im/RxGank](http://fir.im/RxGank)
 
 
