@@ -40,12 +40,6 @@ jekyll-archives:
     category: '/category/:name/'
     tag: '/tag/:name/'
 
-# Disqus comments
-
-disqus_shortname: 
-
-duoshuo_shortname: sunfusheng
-
 # Google analytics
 # ga_tracking_id: "UA-64640288-1"
 
