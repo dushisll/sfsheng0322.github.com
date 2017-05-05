@@ -34,7 +34,6 @@
       },
       {
         "uri": "weather_shanghai",
-        "type": "app",
         "pkg": "com.sunfusheng.small.app.shanghai.weather",
         "rules": {
           "shanghai": ".ui.ShanghaiWeather"
@@ -46,12 +45,16 @@
     {
       "pkg": "com.sunfusheng.small.app.main",
       "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_app_main.so"
+    },
+    {
+      "pkg": "com.sunfusheng.small.app.weather",
+      "url": "http://sunfusheng.com/assets/small/updates/libcom_sunfusheng_small_app_weather.so"
     }
   ],
   "additions": [
     {
-      "pkg": "com.sunfusheng.small.app.shanghai.weather",
-      "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_app_shanghai_weather.so"
+      "pkg": "com.sunfusheng.small.app.about",
+      "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_app_about.so"
     }
   ]
 }
