@@ -38,13 +38,23 @@
         "rules": {
           "shanghai": ".ui.ShanghaiWeather"
         }
+      },
+      {
+        "uri": "about",
+        "pkg": "com.sunfusheng.small.app.about"
       }
     ]
   },
-  "updates": [
-    
-  ],
+  "updates": [],
   "additions": [
+    {
+      "pkg": "com.sunfusheng.small.lib.style",
+      "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_lib_style.so"
+    },
+    {
+      "pkg": "com.sunfusheng.small.lib.framework",
+      "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_lib_framework.so"
+    },
     {
       "pkg": "com.sunfusheng.small.app.main",
       "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_app_main.so"
@@ -60,14 +70,6 @@
     {
       "pkg": "com.sunfusheng.small.app.shanghai.weather",
       "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_app_shanghai_weather.so"
-    },
-    {
-      "pkg": "com.sunfusheng.small.lib.framework",
-      "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_lib_framework.so"
-    },
-    {
-      "pkg": "com.sunfusheng.small.lib.style",
-      "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_lib_style.so"
     },
     {
       "pkg": "com.sunfusheng.small.app.about",
