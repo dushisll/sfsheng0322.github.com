@@ -50,6 +50,10 @@
       "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_app_main.so"
     },
     {
+      "pkg": "com.sunfusheng.small.app.phone",
+      "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_app_phone.so"
+    },
+    {
       "pkg": "com.sunfusheng.small.app.weather",
       "url": "http://sunfusheng.com/assets/small/updates/libcom_sunfusheng_small_app_weather.so"
     },
@@ -60,6 +64,10 @@
     {
       "pkg": "com.sunfusheng.small.lib.framework",
       "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_lib_framework.so"
+    },
+    {
+      "pkg": "com.sunfusheng.small.lib.style",
+      "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_lib_style.so"
     },
     {
       "pkg": "com.sunfusheng.small.app.about",
