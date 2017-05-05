@@ -1,7 +1,7 @@
 {
-  "manifest_code": 2,
-  "updates_code": 2,
-  "additions_code": 2,
+  "manifest_code": 1,
+  "updates_code": 1,
+  "additions_code": 1,
   "manifest": {
     "version": "1.0.0",
     "bundles": [
@@ -18,19 +18,27 @@
         "pkg": "com.sunfusheng.small.app.main"
       },
       {
-        "uri": "weather",
-        "pkg": "com.sunfusheng.small.app.weather"
-      },
-      {
         "uri": "phone",
         "pkg": "com.sunfusheng.small.app.phone",
         "rules": {
-          "Number": ".ui.Number"
+          "beijing": ".ui.BeijingPhone",
+          "weihai": ".ui.WeihaiPhone"
         }
       },
       {
-        "uri": "shanghai.weather",
-        "pkg": "com.sunfusheng.small.app.shanghai.weather"
+        "uri": "weather_beijing",
+        "pkg": "com.sunfusheng.small.app.weather",
+        "rules": {
+          "beijing": ".ui.BeijingWeather"
+        }
+      },
+      {
+        "uri": "weather_shanghai",
+        "type": "app",
+        "pkg": "com.sunfusheng.small.app.shanghai.weather",
+        "rules": {
+          "shanghai": ".ui.ShanghaiWeather"
+        }
       }
     ]
   },
