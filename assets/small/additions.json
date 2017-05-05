@@ -54,6 +54,14 @@
       "url": "http://sunfusheng.com/assets/small/updates/libcom_sunfusheng_small_app_weather.so"
     },
     {
+      "pkg": "com.sunfusheng.small.app.shanghai.weather",
+      "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_app_shanghai_weather.so"
+    },
+    {
+      "pkg": "com.sunfusheng.small.lib.framework",
+      "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_lib_framework.so"
+    },
+    {
       "pkg": "com.sunfusheng.small.app.about",
       "url": "http://sunfusheng.com/assets/small/additions/libcom_sunfusheng_small_app_about.so"
     }
