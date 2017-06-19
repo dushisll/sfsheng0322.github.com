@@ -61,4 +61,16 @@ StickyHeaderListView 是基于实际需求做出的灵活可定制的UI功能，
 
 [APK下载地址: http://fir.im/RxGank](http://fir.im/RxGank)
 
+## 6、GlideImageView
+
+该库是基于[Glide](https://github.com/bumptech/glide) V4.0设计的，实现如下特性:  
+1、通过提供的属性可以设置图片的圆角、边框。  
+2、可以设置点击触摸图片时的颜色、透明度。  
+3、一行代码加载来自网络、res、SDCard中的图片，可加载成圆形。  
+4、可以监听加载图片时的进度。  
+
+[Github地址: https://github.com/sfsheng0322/GlideImageView](https://github.com/sfsheng0322/GlideImageView)
+
+[APK下载地址: http://fir.im/GlideImageView](http://fir.im/GlideImageView)
+
 
