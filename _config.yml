@@ -22,7 +22,7 @@ baseurl: /
 # the base hostname & protocol for your site
 url: "http://sfsheng0322.github.io"
 cover: "assets/header_image.jpg"
-theme_color: "#f57c00"
+theme_color: "#fc8b3b"
 # logo: "assets/logo.png"
 
 # Build settings
