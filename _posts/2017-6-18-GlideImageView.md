@@ -7,7 +7,7 @@ categories: 项目
 tags: Technology
 ---
 
-<img src="https://raw.githubusercontent.com/sfsheng0322/GlideImageView/master/screenshot/gif5.gif">
+<img src="/assets/GlideImageView/gif5.gif">
 
 ### GlideImageView 是基于[Glide](https://github.com/bumptech/glide) V4.0设计的，实现如下特性:  
 1、通过提供的属性可以设置图片的圆角、边框。  
@@ -19,7 +19,7 @@ tags: Technology
 
 #### 设置圆角、边框的图片，触摸图片时的效果，显示Gif图的效果
 
-<table> <tr> <td><img src="https://raw.githubusercontent.com/sfsheng0322/GlideImageView/master/screenshot/image4.png"></td> <td><img src="https://raw.githubusercontent.com/sfsheng0322/GlideImageView/master/screenshot/gif6.gif"></td> <td><img src="https://raw.githubusercontent.com/sfsheng0322/GlideImageView/master/screenshot/gif1.gif"></td> </tr></table>
+<table> <tr> <td><img src="/assets/GlideImageView/image4.png"></td> <td><img src="/assets/GlideImageView/gif6.gif"></td> <td><img src="/assets/GlideImageView/gif1.gif"></td> </tr></table>
 
 <br/>
 
@@ -115,7 +115,7 @@ tags: Technology
   
 <br/>
     
-<img src="https://raw.githubusercontent.com/sfsheng0322/GlideImageView/master/screenshot/gif4.gif">
+<img src="/assets/GlideImageView/gif4.gif">
 
 <br/>
 
