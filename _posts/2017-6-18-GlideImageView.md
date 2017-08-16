@@ -7,7 +7,7 @@ categories: 项目
 tags: Technology
 ---
 
-<img src="/assets/GlideImageView/gif5.gif">
+<img src="http://ourv0v3ed.bkt.clouddn.com/GlideImageView1.gif">
 
 ### GlideImageView 是基于[Glide](https://github.com/bumptech/glide) V4.0设计的，实现如下特性:  
 1、通过提供的属性可以设置图片的圆角、边框。  
@@ -115,7 +115,7 @@ tags: Technology
   
 <br/>
     
-<img src="/assets/GlideImageView/gif4.gif">
+<img src="http://ourv0v3ed.bkt.clouddn.com/GlideImageView4.gif">
 
 <br/>
 

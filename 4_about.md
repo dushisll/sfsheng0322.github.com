@@ -4,7 +4,7 @@ title: 关于
 permalink: /about/
 ---
 
-<img src="/assets/about_me.png" style="width: 50%;">
+<img src="http://ourvm0t8d.bkt.clouddn.com/%E6%88%91.png" style="width: 50%;">
 
 我是孙福生，二零一三年毕业，毕业后一直从事Android客户端开发。
 
@@ -15,7 +15,7 @@ permalink: /about/
 
 ### 个人公众号
 
-<img src="/assets/icon1/微信公众号15.jpg" style="width: 30%;">
+<img src="http://ourvm0t8d.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" style="width: 30%;">
 
 
 ### 关注我吧
