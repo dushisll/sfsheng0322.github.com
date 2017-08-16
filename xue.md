@@ -8,7 +8,7 @@ permalink: /xue/
 
 <br/>
 
-<img src="/assets/xue/we1.jpeg">
+<img src="http://ourv5p5fq.bkt.clouddn.com/we1.jpeg">
 
 <br/>
 
@@ -19,7 +19,7 @@ permalink: /xue/
 
 <br/>
 
-<img src="/assets/xue/she1.jpeg">
+<img src="http://ourv5p5fq.bkt.clouddn.com/she1.jpeg">
 
 <br/>
 
@@ -33,7 +33,7 @@ permalink: /xue/
 
 <br/>
 
-<img src="/assets/xue/we2.jpeg">
+<img src="http://ourv5p5fq.bkt.clouddn.com/we2.jpeg">
 
 <br/>
 
@@ -45,7 +45,7 @@ permalink: /xue/
 
 <br/>
 
-<img src="/assets/xue/she2.jpeg">
+<img src="http://ourv5p5fq.bkt.clouddn.com/she2.jpeg">
 
 <br/>
 
