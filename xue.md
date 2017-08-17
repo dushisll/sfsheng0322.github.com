@@ -1,6 +1,6 @@
 ---
 layout: page
-title: " "
+title: "我们"
 permalink: /xue/
 ---
 
