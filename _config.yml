@@ -20,7 +20,7 @@ description: >
 # the subpath of your site, e.g. /blog/
 baseurl: https://github.com/sfsheng0322/sfsheng0322.github.com/
 # the base hostname & protocol for your site
-url: "http://sunfusheng.com/"
+url: "http://sfsheng0322.github.io/"
 cover: "assets/header_image.jpg"
 theme_color: "#fc8b3b"
 # logo: "assets/logo.png"
