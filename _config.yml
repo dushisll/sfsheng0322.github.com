@@ -18,11 +18,11 @@ description: >
   心中有阳光，脚底有力量！
 
 # the subpath of your site, e.g. /blog/
-baseurl: "http://sunfusheng.com/"
+baseurl: /
 # the base hostname & protocol for your site
 url: "http://sunfusheng.com/"
 cover: "assets/header_image.jpg"
-theme_color: "#fc8b3b"
+theme_color: "#e65100"
 # logo: "assets/logo.png"
 
 # Build settings
