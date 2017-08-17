@@ -17,12 +17,14 @@ emailname: QQ Mail
 description: >
   心中有阳光，脚底有力量！
 
-# the subpath of your site, e.g. /blog/
-baseurl: http://sunfusheng.com/
-# the base hostname & protocol for your site
-url: "http://sunfusheng.com/"
+# 调试使用
+baseurl: /
+# 外网访问使用
+# baseurl: http://sunfusheng.com/
+url: /
+
 cover: "assets/header_image.jpg"
-theme_color: "#e65100"
+theme_color: "#ef6c00"
 # logo: "assets/logo.png"
 
 # Build settings
