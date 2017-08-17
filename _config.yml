@@ -18,13 +18,13 @@ description: >
   心中有阳光，脚底有力量！
 
 # 调试使用
-baseurl: /
+# baseurl: /
 # 外网访问使用
-# baseurl: http://sunfusheng.com/
-url: /
+baseurl: http://sunfusheng.com/
+url: "http://sunfusheng.com/"
 
 cover: "assets/header_image.jpg"
-theme_color: "#ef6c00"
+theme_color: "#ff6f00"
 # logo: "assets/logo.png"
 
 # Build settings
