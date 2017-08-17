@@ -18,9 +18,9 @@ description: >
   心中有阳光，脚底有力量！
 
 # the subpath of your site, e.g. /blog/
-baseurl: http://sunfusheng.com/
+baseurl: https://github.com/sfsheng0322/sfsheng0322.github.com/
 # the base hostname & protocol for your site
-url: "http://sfsheng0322.github.io"
+url: "http://sunfusheng.com/"
 cover: "assets/header_image.jpg"
 theme_color: "#fc8b3b"
 # logo: "assets/logo.png"
