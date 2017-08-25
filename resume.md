@@ -8,50 +8,63 @@ permalink: /resume/
 
 <br/>
 
-## 孙福生
+### 孙福生个人信息  
+***
 
-| :--- | :--- |
-| Phone          | 156 9821 9533          |
-| Email          | sfsheng0322@126.com          |
-| GitHub          | [https://github.com/sfsheng0322](https://github.com/sfsheng0322)          |
-| Blog          | [http://sunfusheng.com](http://sunfusheng.com/)          |
+姓 名: 孙福生  
+性 别: 男  
+学 历: 本科  
+专 业: 自动化  
+出生年月: 1989年3月  
 
-<br/>
-
-## 专业技能
-
-● GitHub上开源 [StickyHeaderListView](https://github.com/sfsheng0322/StickyHeaderListView) 项目，模仿百度外卖首页同时用于回家吃饭首页  
-● GitHub上开源 [MarqueeView](https://github.com/sfsheng0322/MarqueeView) 自定义View，用于循环显示垂直、水平翻页公告  
-● GitHub上开源 [Bingo](https://github.com/sfsheng0322/Bingo) 项目，用于收集和阅读优秀的技术文章  
-● 热爱技术分享，空闲时间在 [简书](http://www.jianshu.com/users/88509e7e2ed1/latest_articles)、[个人博客](http://sunfusheng.com/)、[新浪微博](http://weibo.com/u/3852192525)、掘金、开发者头条上分享技术文章  
-● 熟练掌握git相关操作  
-● 熟练掌握基本控件、自定义控件的使用  
-● 使用Android Studio开发，掌握Gradle构件项目  
-● 熟悉安卓应用框架设计，熟悉MVC和MVP架构模式    
-● 熟悉Handler消息通信机制，研究并使用EventBus3.0  
-● 掌握View树的绘制流程和事件分发机制  
-● 熟悉线程和线程池的使用，熟悉进程间通信  
+手机号码: [156 9821 9533]()  
+电子邮件: [sfsheng0322@126.com]()  
+GitHub: [https://github.com/sfsheng0322](https://github.com/sfsheng0322)  
+个人博客: [sunfusheng.com](http://sunfusheng.com/)  
+网页简历: [sunfusheng.com/resume](http://sunfusheng.com/resume/)
 
 <br/>
 
-## 4年工作经验
+### 四年Android开发经验  
+***
 
-### 2016年12月至今，360集团，Android工程师
+#### 专业技能  
 
-北京时间，隶属北京广播电视台、北京电视台和北京新媒体集团，集合北京市新闻资源，依托北京电视台的视频内容和新闻采编优势，打造成具有广泛影响力和竞争力的新型主流媒体。
+● 熟练掌握Java语言、面向对象编程、了解常见设计模式  
+● 熟练掌握Android API、UI组件、动画、自定义控件等  
+● 熟悉Android下网络编程、数据库、图⽚加载和内存优化  
+● 熟悉Android开发的相关机制，熟悉多线程、进程管理、内存管理、进程间通信开发技术  
+● 熟练掌握版本控制Git和SVN并在GitHub上开源项目  
+● 熟悉模块化开发，了解热修复和插件化开发技术  
+● 熟悉RxJava、Retrofit、MVP开发技术  
+
+#### 项目经验
+
+● 熟悉Android客户端开发、测试、分发流程，具备良好的编程习惯   
+● 优化客户端软件的模块结构、项目架构改进及性能优化，负责客户端软件适配和迭代升级  
+● 能独立分析和解决开发中的技术问题  
+● 学习和研究新技术以满足产品需求，根据开发过程中的体验对产品提出改进建议  
+● 具有良好的言语表达能力，善于与人沟通、合作，有良好的团队意识和责任心  
+
+<br/>
+
+### 工作经历  
+***  
+
+#### 2016年12月至今，奇虎360，Android工程师
 
 [【360新闻】](http://app.mi.com/details?id=com.so.news.activity) 和 [【北京时间】](http://app.mi.com/details?id=com.btime.bjtime) 都是由360新闻团队倾力打造的一款基于热门及兴趣推荐的资讯阅读客户端，海量热门头条、新鲜事、视频直播，精彩资讯抢先看，亮点功能有个性化精准推荐；泛资讯现场直播，视频化新闻内容；原创团队深度新闻报道。 
 
 这期间做的工作主要有：  
-1、独立推荐系统打点库HitLog，将独立出来的库给新华社使用。  
-2、App主页精选Tab下列表Multi Type Item的修改与优化，包括首页的MD设计风格。  
+1、独立完成推荐系统打点库HitLog，将独立出来的库给新华社使用。  
+2、App主页精选Tab下列表MultiType Item修改与优化，包括首页的MD设计风格。  
 3、处理视频播放位置和新闻详情页图片显示的相关逻辑。  
 4、自定义CircleTextView组件和BottomSheetDialog的调研与使用。  
 5、我的页面、个人设置页面、账号管理页面UI风格的修改与优化。
 
 <br/>
 
-### 2015年11月至2016年12月，回家吃饭，高级Android工程师
+#### 2015年11月至2016年12月，回家吃饭，高级Android工程师
  
 [【回家吃饭】](http://www.jiashuangkuaizi.com/)是一个基于地理位置、共享身边美食的全国最大的家庭厨房共享平台，致力于挖掘厨艺达人，以配送、上门就餐、自取多种方式为忙碌的上班族、不愿下厨的年轻人提供安心可口的家常菜，致力于解决对健康美食有需求与富余生产力衔接的问题，创造一种全新的生活方式。
 
@@ -67,7 +80,7 @@ permalink: /resume/
 
 <br/>
 
-### 2014年10月至2015年11月，创新工场，Android工程师
+#### 2014年10月至2015年11月，创新工场，Android工程师
 
 [【美丽屋】](http://bj.meiliwu.com/)是一款可以根据城市或者地图搜索二手房、待出租房，浏览房屋相关信息，具有IM聊天功能可以与卖房者、租房者沟通，同时该应用还拥有贷款计算器和税费计算器功能。
 
@@ -75,7 +88,7 @@ permalink: /resume/
 
 <br/>
 
-###  2013年2月至2014年9月，卡尔电气，Android工程师(独立开发)
+####  2013年2月至2014年9月，山东卡尔电气，Android工程师
 
 [【视界通】](http://www.kaer.cn/pro-836.html)是以点对点信息服务为基础(P2P)的视频监控项目。具体功能为实时视频查看、历史录像和远程录像回放、云台设备控制、语音对讲和视频抓拍等功能。主要使用ZMQ网络通信技术传输音视频数据，使用JNI调用C语言实现的H264解码库解析终端设备发送的视频和音频数据。
  
@@ -83,7 +96,8 @@ permalink: /resume/
 
 <br/>
 
-## 个人开源项目
+### GitHub开源项目  
+***  
 
 #### 1、[【StickyHeaderListView】](https://github.com/sfsheng0322/StickyHeaderListView)
 
@@ -100,6 +114,8 @@ StickyHeaderListView是基于实际需求做出的灵活可变的UI视图，具�
 Github地址：[https://github.com/sfsheng0322/StickyHeaderListView](https://github.com/sfsheng0322/StickyHeaderListView)  
 APK下载地址：[http://fir.im/StickyListView](http://fir.im/StickyListView)
 
+<br/>
+
 #### 2、[【MarqueeView】](https://github.com/sfsheng0322/MarqueeView)
 
 垂直翻页公告，可以将一大段文字根据屏幕显示的宽度截取，不断滚动显示，该项目也可以叫做垂直的跑马灯。
@@ -107,14 +123,18 @@ APK下载地址：[http://fir.im/StickyListView](http://fir.im/StickyListView)
 Github地址：[https://github.com/sfsheng0322/MarqueeView](https://github.com/sfsheng0322/MarqueeView)  
 APK下载地址：[http://fir.im/MarqueeView](http://fir.im/MarqueeView)
 
-### 3、[【RxGank】](https://github.com/sfsheng0322/RxGank)
+<br/>
+
+#### 3、[【RxGank】](https://github.com/sfsheng0322/RxGank)
 
 干货集中营Android客户端
 
 Github地址: [https://github.com/sfsheng0322/RxGank](https://github.com/sfsheng0322/RxGank)  
 APK下载地址: [http://fir.im/RxGank](http://fir.im/RxGank)
 
-### 4、[【GlideImageView】](https://github.com/sfsheng0322/GlideImageView)
+<br/>
+
+#### 4、[【GlideImageView】](https://github.com/sfsheng0322/GlideImageView)
 
 该库是基于[Glide](https://github.com/bumptech/glide) V4.0设计的，实现如下特性:  
 1、通过提供的属性可以设置图片的圆角、边框。  
@@ -127,21 +147,26 @@ APK下载地址: [http://fir.im/GlideImageView](http://fir.im/GlideImageView)
 
 <br/>
 
-## 教育背景
+### 教育背景  
+***  
 
-2009年9月至2013年6月，山东工商学院，本科，自动化专业  
-英语CET4  
-全国大学生电子设计大赛优秀奖  
-校智能车比赛二等奖  
-有嵌入式软件开发和PCB绘制基础  
+● 2009年9月至2013年6月，山东工商学院，本科，自动化专业  
+● 英语CET4  
+● 全国大学生电子设计大赛优秀奖  
+● 校智能车比赛二等奖  
+● 有嵌入式软件开发和PCB绘制基础  
 
 <br/>
 
-## 兴趣爱好
+### 兴趣爱好  
+***  
 
-喜欢写博客、小应用程序  
-爱运动，喜欢旅行  
-工作踏实认真，有钻研精神，接受新知识能力强  
+● 喜欢写博客和小应用程序  
+● 爱看书，爱运动，喜欢旅行  
+● 工作踏实认真，有钻研精神，接受能力强  
+
+
+
 
 
 
